@@ -1,6 +1,6 @@
 To install the packages I expect to use during this workshop with mini/Anaconda:
 
-    conda install -c conda-forge biopython emcee numpy jupyter scipy matplotlib scikit-image scikit-learn mdtraj pyemma itertools
+    conda install -c conda-forge biopython emcee numpy jupyter scipy matplotlib scikit-image scikit-learn mdtraj pyemma
 
 **Workshop 1:** Python list review, NumPy intro, basic plotting with matplotlib, nonlinear curve fitting with scipy, and Bayesian inference for nonlinear least squares, using pulse proteolysis data as an example. *several sessions*
 
