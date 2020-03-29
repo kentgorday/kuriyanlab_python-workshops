@@ -1,0 +1,14 @@
+#!/bin/bash
+#PBS -N rosetta_6vfx_0
+#PBS -q shortq
+#PBS -l nodes=1:ppn=16
+#PBS -m ae
+#PBS -M kent.gorday@berkeley.edu
+#PBS -o rosetta_6vfx_0.o
+#PBS -S /bin/bash
+
+source /home/kentgorday/.bashrc
+
+cd /home/kentgorday/rosetta_6vfx
+
+parallel --tmpdir /export/silo/kent/scratch 'mkdir -p out/{} ; cd out/{} && /home/kentgorday/code/rosetta/main/source/bin/loopmodel.linuxgccrelease -database /home/kentgorday/code/rosetta/main/database -in:file:s ../../6vfx_edited2.pdb -in:file:fullatom -in:file:extra_res_fa /home/kentgorday/rosetta_ligands/A3P.fa.params /home/kentgorday/rosetta_ligands/ADP.fa.params -in:file:extra_res_cen /home/kentgorday/rosetta_ligands/A3P.cen.params /home/kentgorday/rosetta_ligands/ADP.cen.params -loops:loop_file ../../loops.txt -loops:remodel perturb_kic -loops:refine refine_kic -loops:taboo_sampling -loops:kic_rama2b -loops:ramp_fa_rep -loops:ramp_rama -ex1 -ex2 -overwrite -allow_omega_move true -loops:refine_outer_cycles 6 -nstruct 128 -run:constant_seed -run:jran {}' ::: {0..15}
