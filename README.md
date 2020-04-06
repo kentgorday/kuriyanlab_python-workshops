@@ -12,4 +12,6 @@ To install the packages I expect to use during this workshop with mini/Anaconda:
 
 **Workshop 5:** Solving a system of coupled differential equations using scipy, as applied to the kinetic model from <https://doi.org/10.7554/eLife.53670>. An example of applying the Gillespie algorithm to the stochastic dynamics of the same model at low volumes/molecule numbers.
 
-**Workshop 6-?:** Working with molecular dynamics trajectories using mdtraj, analyzing saturation mutagenesis data? More numba demonstration??
+**Workshop 6-?:** Working with molecular dynamics trajectories using mdtraj, analyzing saturation mutagenesis data?
+
+**Bonus:** Short examples using numba, mdtraj, and Bio.SeqIO?
