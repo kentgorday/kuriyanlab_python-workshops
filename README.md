@@ -1,6 +1,6 @@
 To install the packages I expect to use during this workshop with mini/Anaconda:
 
-    conda install -c conda-forge biopython emcee numpy jupyter scipy matplotlib scikit-image scikit-learn mdtraj pyemma numba
+    conda install -c conda-forge biopython emcee numpy jupyter scipy matplotlib scikit-image scikit-learn mdtraj pyemma numba nglview
 
 **Workshop 1:** Python list review, NumPy intro, basic plotting with matplotlib, nonlinear curve fitting with scipy, and Bayesian inference for nonlinear least squares, using pulse proteolysis data as an example. *several sessions*
 
@@ -12,6 +12,8 @@ To install the packages I expect to use during this workshop with mini/Anaconda:
 
 **Workshop 5:** Solving a system of coupled differential equations using scipy, as applied to the kinetic model from <https://doi.org/10.7554/eLife.53670>. An example of applying the Gillespie algorithm to the stochastic dynamics of the same model at low volumes/molecule numbers.
 
-**Workshop 6-?:** Working with molecular dynamics trajectories using mdtraj, analyzing saturation mutagenesis data?
+**Workshop 6:** Working with molecular dynamics trajectories using mdtraj.
+
+analyzing saturation mutagenesis data?
 
 **Bonus:** Short examples using numba, mdtraj, and Bio.SeqIO?
