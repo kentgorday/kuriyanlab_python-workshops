@@ -1,0 +1,3009 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.10.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_76169</BlastOutput_query-ID>
+  <BlastOutput_query-def>sp|P04525|DPA5_BPT4 DNA polymerase clamp OS=Enterobacteria phage T4 OX=10665 GN=45 PE=1 SV=3</BlastOutput_query-def>
+  <BlastOutput_query-len>228</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>1e-24</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_76169</Iteration_query-ID>
+  <Iteration_query-def>sp|P04525|DPA5_BPT4 DNA polymerase clamp OS=Enterobacteria phage T4 OX=10665 GN=45 PE=1 SV=3</Iteration_query-def>
+  <Iteration_query-len>228</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>pdb|6DRT|A</Hit_id>
+  <Hit_def>Chain A, DNA polymerase clamp [Escherichia virus T4] &gt;pdb|6DRT|B Chain B, DNA polymerase clamp [Escherichia virus T4] &gt;pdb|6DRT|C Chain C, DNA polymerase clamp [Escherichia virus T4]</Hit_def>
+  <Hit_accession>6DRT_A</Hit_accession>
+  <Hit_len>236</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>465.692</Hsp_bit-score>
+      <Hsp_score>1197</Hsp_score>
+      <Hsp_evalue>1.53823e-165</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>228</Hsp_identity>
+      <Hsp_positive>228</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_hseq>
+      <Hsp_midline>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|NP_049666.1|</Hit_id>
+  <Hit_def>gp45 sliding clamp, DNA polymerase accessory protein [Escherichia virus T4] &gt;sp|P04525.3| RecName: Full=DNA polymerase clamp; AltName: Full=DNA polymerase accessory protein 45; AltName: Full=DNA polymerase sliding clamp; AltName: Full=Gp45 [Escherichia virus T4] &gt;pdb|1CZD|A Chain A, Crystal Structure Of The Processivity Clamp Gp45 From Bacteriophage T4 [Escherichia virus T4] &gt;pdb|1CZD|B Chain B, Crystal Structure Of The Processivity Clamp Gp45 From Bacteriophage T4 [Escherichia virus T4] &gt;pdb|1CZD|C Chain C, Crystal Structure Of The Processivity Clamp Gp45 From Bacteriophage T4 [Escherichia virus T4] &gt;gb|AAD42470.1| gp45 sliding clamp, DNA polymerase accessory protein [Escherichia phage T4] &gt;gb|ADJ39769.1| sliding clamp [Enterobacteria phage T4T] &gt;gb|AIT74965.1| sliding clamp DNA polymerase accessory protein [Enterobacteria phage RB55] &gt;gb|AIT75237.1| sliding clamp DNA polymerase accessory protein [Enterobacteria phage RB59] &gt;gb|AHY83538.1| sliding clamp [Escherichia virus T4]</Hit_def>
+  <Hit_accession>NP_049666</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>464.922</Hsp_bit-score>
+      <Hsp_score>1195</Hsp_score>
+      <Hsp_evalue>2.10175e-165</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>228</Hsp_identity>
+      <Hsp_positive>228</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_hseq>
+      <Hsp_midline>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|YP_002854009.1|</Hit_id>
+  <Hit_def>gp45 sliding clamp DNA polymerase [Enterobacteria phage RB51] &gt;ref|YP_002854387.1| gp45 sliding clamp DNA polymerase [Escherichia virus RB14] &gt;ref|YP_004414953.1| putative sliding clamp DNA polymerase [Shigella phage Shfl2] &gt;ref|YP_006986605.1| sliding clamp DNA polymerase accessory protein [Escherichia phage vB_EcoM_ACG-C40] &gt;ref|YP_007004795.1| sliding clamp DNA polymerase accessory protein [Escherichia phage wV7] &gt;ref|YP_009098437.1| sliding clamp DNA polymerase accessory protein [Escherichia phage RB3] &gt;ref|YP_009102258.1| sliding clamp DNA polymerase accessory protein [Enterobacteria phage RB27] &gt;ref|YP_009102526.1| hypothetical protein ECML134_051 [Escherichia phage ECML-134] &gt;ref|YP_009149294.1| sliding clamp DNA polymerase accessory protein,phage associated [Yersinia phage phiD1] &gt;ref|YP_009153653.1| sliding clamp, DNA polymerase accessory protein [Yersinia phage PST] &gt;ref|YP_009167421.1| sliding clamp DNA polymerase accessory protein [Enterobacteria phage RB68] &gt;ref|YP_009167865.1| sliding clamp, DNA polymerase accessory protein [Escherichia phage AR1] &gt;ref|YP_009197398.1| hypothetical protein [Escherichia phage slur07] &gt;ref|YP_009277694.1| sliding clamp DNA polymerase accessory protein [Shigella phage SHFML-11] &gt;ref|YP_009281393.1| sliding clamp DNA polymerase accessory protein [Escherichia phage UFV-AREG1] &gt;ref|YP_009618865.1| sliding clamp [Shigella phage Sf21] &gt;ref|YP_009619261.1| sliding clamp [Shigella phage Sf24] &gt;ref|YP_802993.1| gp45 sliding clamp DNA polymerase [Escherichia virus RB32] &gt;gb|ABI94875.1| gp45 sliding clamp DNA polymerase [Escherichia phage RB32] &gt;gb|ACP30695.1| gp45 sliding clamp DNA polymerase [Escherichia phage RB14] &gt;gb|AIT73060.1| sliding clamp DNA polymerase accessory protein [Enterobacteria phage RB5] &gt;gb|AIT73331.1| sliding clamp DNA polymerase accessory protein [Enterobacteria phage RB6] &gt;gb|AIT73602.1| sliding clamp DNA polymerase accessory protein [Enterobacteria phage RB7] &gt;gb|AIT73874.1| sliding clamp DNA polymerase accessory protein [Enterobacteria phage RB9] &gt;gb|AIT74146.1| sliding clamp DNA polymerase accessory protein [Enterobacteria phage RB10] &gt;gb|AIT74690.1| sliding clamp DNA polymerase accessory protein [Enterobacteria phage RB33] &gt;gb|AKE46068.1| hypothetical protein ECTP7_01201 [Escherichia coli O157 typing phage 7] &gt;gb|ANZ51695.1| sliding clamp DNA polymerase accessory protein [Enterobacteria phage Kha5h] &gt;gb|APC45094.1| sliding clamp of DNA polymerase [Shigella phage SH7] &gt;gb|ASZ77179.1| sliding clamp DNA polymerase accessory protein [Escherichia phage ECO4] &gt;gb|ATE86585.1| sliding clamp [Shigella phage Sf23] &gt;gb|AUV60914.1| sliding clamp DNA polymerase accessory protein [Escherichia phage vB_EcoM-fFiEco06] &gt;gb|AUV63462.1| sliding clamp [Shigella phage Sf25] &gt;gb|AXC34045.1| sliding clamp, DNA polymerase accessory protein [Escherichia phage vB_EcoM_JB75] &gt;gb|AXF42362.1| sliding clamp [Enterobacteria phage RB18] &gt;gb|AXN58091.1| sliding clamp [Enterobacteria phage T6] &gt;gb|AYD82648.1| sliding clamp [Escherichia phage T2] &gt;gb|AYJ74570.1| sliding clamp DNA polymerase accessory protein [Yersinia phage PYPS2T] &gt;gb|EBK7480125.1| DNA polymerase [Salmonella enterica] &gt;gb|EDB5153673.1| DNA polymerase [Salmonella enterica subsp. enterica serovar Braenderup] &gt;gb|EDU9380885.1| DNA polymerase [Salmonella enterica subsp. enterica] &gt;gb|EEV9360537.1| DNA polymerase [Escherichia coli] &gt;gb|QBO60793.1| putative sliding clamp [Escherichia phage vB_EcoM_G2133] &gt;gb|QBO64093.1| putative sliding clamp [Escherichia phage vB_EcoM_G4498] &gt;gb|QBO64373.1| putative sliding clamp [Escherichia phage vB_EcoM_G29] &gt;gb|QBO65743.1| putative sliding clamp [Escherichia phage vB_EcoM_G4500] &gt;gb|QBO66020.1| putative sliding clamp [Escherichia phage vB_EcoM_G4507] &gt;gb|QBQ77837.1| putative sliding clamp [Escherichia phage vB_EcoM_G9062] &gt;gb|QBQ79661.1| putative sliding clamp [Escherichia phage vB_EcoM_R5505] &gt;gb|QDF15078.1| sliding clamp DNA polymerase accessory protein [Escherichia phage vB_EcoM-Sa45lw] &gt;gb|QDK04182.1| sliding clamp DNA polymerase [Escherichia virus VEc20] &gt;gb|QEG04735.1| sliding clamp DNA polymerase [Shigella phage CM8] &gt;gb|QEG05094.1| sliding clamp DNA polymerase [Shigella phage JK23] &gt;gb|QEG05902.1| sliding clamp DNA polymerase [Shigella phage JK38] &gt;gb|QHB43082.1| sliding clamp [Shigella virus KRT47] &gt;gb|QHR63626.1| sliding clamp DNA polymerase accessory protein [Escherichia phage teqhal] &gt;gb|QHR63904.1| sliding clamp DNA polymerase accessory protein [Escherichia phage teqsoen] &gt;gb|QHR64390.1| sliding clamp DNA polymerase accessory protein [Escherichia phage teqskov] &gt;gb|QHR64451.1| sliding clamp DNA polymerase accessory protein [Escherichia phage teqdroes] &gt;gb|QIN92339.1| sliding clamp DNA polymerase accessory protein [Phage NBEco003] &gt;gb|QIN97454.1| sliding clamp DNA polymerase accessory protein [Citrobacter phage PhiZZ23] &gt;gb|QIQ68114.1| sliding clamp DNA polymerase accessory protein [Citrobacter phage PhiZZ6] &gt;emb|VEV88897.1| Sliding clamp DNA polymerase accessory protein, phage associated [Yersinia phage fPS-90] &gt;emb|VEV89224.1| Sliding clamp DNA polymerase accessory protein, phage associated [Yersinia phage fPS-65] &gt;emb|VUF54872.1| Sliding clamp DNA polymerase accessory protein, phage associated [Escherichia virus T4] &gt;dbj|BBG28574.1| sliding clamp, DNA polymerase accessory protein [Escherichia phage KIT03]</Hit_def>
+  <Hit_accession>YP_002854009</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>462.996</Hsp_bit-score>
+      <Hsp_score>1190</Hsp_score>
+      <Hsp_evalue>1.32785e-164</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>227</Hsp_identity>
+      <Hsp_positive>227</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASVVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_hseq>
+      <Hsp_midline>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVAS VTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_016059013.1|</Hit_id>
+  <Hit_def>phage-associated sliding clamp DNA polymerase accessory protein [Escherichia coli] &gt;ref|YP_007004436.1| phage-associated sliding clamp DNA polymerase accessory protein [Escherichia phage ime09] &gt;ref|YP_009030661.1| sliding clamp DNA polymerase accessory protein [Escherichia phage vB_EcoM_112] &gt;ref|YP_009110871.1| gp64 [Shigella phage pSs-1] &gt;ref|YP_009148500.1| putative DNA polymerase sliding clamp [Escherichia phage HY01] &gt;ref|YP_009210243.1| unnamed protein product [Escherichia phage slur02] &gt;ref|YP_009279046.1| sliding clamp DNA polymerase accessory protein [Shigella phage SHFML-26] &gt;ref|YP_009290321.1| sliding clamp DNA polymerase accessory protein [Escherichia phage vB_EcoM-UFV13] &gt;ref|YP_009614976.1| sliding clamp [Shigella phage Sf22] &gt;ref|YP_009625274.1| hypothetical protein [Escherichia phage slur04] &gt;gb|AKN44564.1| putative phage-associated sliding clamp DNA polymerase accessory protein [Escherichia phage PEC04] &gt;gb|ANH49810.1| sliding clamp DNA polymerase accessory protein [Escherichia phage PE37] &gt;gb|ANZ50906.1| sliding clamp DNA polymerase accessory protein [Enterobacteria phage Aplg8] &gt;gb|APU02683.1| sliding clamp DNA polymerase accessory protein [Escherichia phage YUEEL01] &gt;gb|AUV59423.1| sliding clamp DNA polymerase accessory protein [Citrobacter phage vB_CroM_CrRp10] &gt;gb|AVH85886.1| putative sliding clamp [Escherichia phage vB_EcoM-G28] &gt;gb|AWD91620.1| sliding clamp DNA polymerase accessory protein [Enterobacteria phage vB_EcoM_IME339] &gt;gb|AWD91882.1| sliding clamp DNA polymerase accessory protein [Enterobacteria phage vB_EcoM_IME340] &gt;gb|AWM12026.1| sliding clamp DNA polymerase accessory protein [Escherichia phage vB_EcoM_NBG2] &gt;gb|AYR03836.1| sliding clamp DNA polymerase [Escherichia phage MLF4] &gt;gb|QBO63296.1| putative sliding clamp [Escherichia phage vB_EcoM_G2540] &gt;gb|QBO64926.1| putative sliding clamp [Escherichia phage vB_EcoM_G50] &gt;gb|QBO65464.1| putative sliding clamp [Escherichia phage vB_EcoM_G2540-3] &gt;gb|QBQ78338.1| putative sliding clamp [Escherichia phage vB_EcoM_KAW1E185] &gt;gb|QBQ79380.1| putative sliding clamp [Escherichia phage vB_EcoM_OE5505] &gt;gb|QCQ57032.1| sliding clamp DNA polymerase accessory protein [Escherichia phage EcNP1] &gt;gb|QHA33428.1| putative sliding clamp DNA polymerase accessory protein [Salmonella phage pSe_SNUABM_01] &gt;gb|QHR63408.1| sliding clamp DNA polymerase accessory protein [Escherichia phage teqhad] &gt;gb|QIN97724.1| sliding clamp DNA polymerase accessory protein [Serratia phage PhiZZ30] &gt;gb|QIW91403.1| sliding clamp DNA polymerase accessory protein [Escherichia phage vB_EcoM_IME537] &gt;emb|CUL02828.1| hypothetical protein [Escherichia phage slur11] &gt;emb|CUL03614.1| hypothetical protein [Escherichia phage slur13] &gt;dbj|BBC14388.1| sliding clamp [Escherichia phage PP01]</Hit_def>
+  <Hit_accession>WP_016059013</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>461.84</Hsp_bit-score>
+      <Hsp_score>1187</Hsp_score>
+      <Hsp_evalue>4.7415e-164</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>226</Hsp_identity>
+      <Hsp_positive>226</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDTIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASVVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_hseq>
+      <Hsp_midline>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISD IDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVAS VTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|AAC05393.1|</Hit_id>
+  <Hit_def>DNA polymerase accessory protein g45 [Escherichia virus T4]</Hit_def>
+  <Hit_accession>AAC05393</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>461.84</Hsp_bit-score>
+      <Hsp_score>1187</Hsp_score>
+      <Hsp_evalue>4.7415e-164</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>227</Hsp_identity>
+      <Hsp_positive>227</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFWRAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_hseq>
+      <Hsp_midline>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFW AADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|AUV61187.1|</Hit_id>
+  <Hit_def>sliding clamp DNA polymerase accessory protein [Escherichia phage vB_EcoM-fHoEco02]</Hit_def>
+  <Hit_accession>AUV61187</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>461.455</Hsp_bit-score>
+      <Hsp_score>1186</Hsp_score>
+      <Hsp_evalue>6.44676e-164</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>226</Hsp_identity>
+      <Hsp_positive>226</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MKLSKDTTTLLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASVVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_hseq>
+      <Hsp_midline>MKLSKDTT LLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVAS VTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>emb|VEV89666.1|</Hit_id>
+  <Hit_def>Sliding clamp DNA polymerase accessory protein, phage associated [Yersinia phage fPS-2]</Hit_def>
+  <Hit_accession>VEV89666</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>460.685</Hsp_bit-score>
+      <Hsp_score>1184</Hsp_score>
+      <Hsp_evalue>1.20492e-163</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>225</Hsp_identity>
+      <Hsp_positive>226</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDTIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADSRSTIFWPAADPSTVVAPNKPIPFPVASVVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_hseq>
+      <Hsp_midline>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISD IDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIAD+RSTIFWPAADPSTVVAPNKPIPFPVAS VTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_080181635.1|</Hit_id>
+  <Hit_def>DNA polymerase [Salmonella enterica] &gt;ref|YP_009180828.1| hypothetical protein [Escherichia phage slur14] &gt;ref|YP_009284135.1| putative sliding clamp DNA polymerase [Escherichia phage HY03] &gt;ref|YP_009288421.1| sliding clamp DNA polymerase accessory protein [Shigella phage SHBML-50-1] &gt;ref|YP_009625194.1| putative sliding clamp DNA polymerase [Shigella phage Shfl2] [Escherichia phage slur03] &gt;gb|ASZ76236.1| sliding clamp DNA polymerase accessory protein [Salmonella phage SG1] &gt;gb|ASZ76888.1| sliding clamp DNA polymerase accessory protein [Escherichia phage EC121] &gt;gb|AYD85318.1| DNA polymerase [Escherichia phage vB_vPM_PD112] &gt;gb|AYP69783.1| sliding clamp DNA polymerase accessory protein [Escherichia phage vB_EcoM_DalCa] &gt;gb|EFD8442310.1| DNA polymerase [Escherichia coli] &gt;gb|QBO61063.1| putative sliding clamp [Escherichia phage D5505] &gt;gb|QBO63569.1| putative sliding clamp [Escherichia phage vB_EcoM_G10400] &gt;gb|QBQ79937.1| putative sliding clamp [Escherichia phage vB_EcoM_G8] &gt;emb|CUL02738.1| hypothetical protein [Escherichia phage slur08]</Hit_def>
+  <Hit_accession>WP_080181635</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>456.833</Hsp_bit-score>
+      <Hsp_score>1174</Hsp_score>
+      <Hsp_evalue>3.42224e-162</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>224</Hsp_identity>
+      <Hsp_positive>225</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MKLSKDTLNILKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASVVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_hseq>
+      <Hsp_midline>MKLSKDT  +LKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVAS VTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_100771328.1|</Hit_id>
+  <Hit_def>DNA polymerase [Bacillus cereus] &gt;gb|ANZ51495.1| sliding clamp DNA polymerase accessory protein [Enterobacteria phage GiZh] &gt;gb|PJZ22049.1| DNA polymerase [Bacillus cereus] &gt;dbj|BBI58174.1| sliding clamp [Shigella phage SfPhi01]</Hit_def>
+  <Hit_accession>WP_100771328</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>455.677</Hsp_bit-score>
+      <Hsp_score>1171</Hsp_score>
+      <Hsp_evalue>1.16948e-161</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>223</Hsp_identity>
+      <Hsp_positive>224</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MKLSKDTLNILKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDTIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASVVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_hseq>
+      <Hsp_midline>MKLSKDT  +LKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISD IDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVAS VTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>emb|CAA24777.1|</Hit_id>
+  <Hit_def>unnamed protein product [Escherichia virus T4] &gt;emb|CAA25340.1| unnamed protein product [Escherichia virus T4]</Hit_def>
+  <Hit_accession>CAA24777</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>450.284</Hsp_bit-score>
+      <Hsp_score>1157</Hsp_score>
+      <Hsp_evalue>1.62448e-159</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>224</Hsp_identity>
+      <Hsp_positive>225</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVND-AEISQSEDGNIKIADARSTIFWRAADPSTDVAPNKPIPFPVASAVTEIKAEDLQQLLRLSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_hseq>
+      <Hsp_midline>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVND AEISQSEDGNIKIADARSTIFW AADPST VAPNKPIPFPVASAVTEIKAEDLQQLLR+SRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>pdb|3U5Z|F</Hit_id>
+  <Hit_def>Chain F, Dna Polymerase Processivity Component [Escherichia virus T4] &gt;pdb|3U5Z|G Chain G, Dna Polymerase Processivity Component [Escherichia virus T4] &gt;pdb|3U5Z|H Chain H, Dna Polymerase Processivity Component [Escherichia virus T4] &gt;pdb|3U5Z|P Chain P, Dna Polymerase Processivity Component [Escherichia virus T4] &gt;pdb|3U5Z|Q Chain Q, Dna Polymerase Processivity Component [Escherichia virus T4] &gt;pdb|3U5Z|R Chain R, Dna Polymerase Processivity Component [Escherichia virus T4] &gt;pdb|3U60|F Chain F, Dna Polymerase Processivity Component [Escherichia virus T4] &gt;pdb|3U60|G Chain G, Dna Polymerase Processivity Component [Escherichia virus T4] &gt;pdb|3U60|H Chain H, Dna Polymerase Processivity Component [Escherichia virus T4] &gt;pdb|3U61|F Chain F, Dna Polymerase Processivity Component [Escherichia virus T4] &gt;pdb|3U61|G Chain G, Dna Polymerase Processivity Component [Escherichia virus T4] &gt;pdb|3U61|H Chain H, Dna Polymerase Processivity Component [Escherichia virus T4]</Hit_def>
+  <Hit_accession>3U5Z_F</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>449.129</Hsp_bit-score>
+      <Hsp_score>1154</Hsp_score>
+      <Hsp_evalue>4.82937e-159</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>222</Hsp_identity>
+      <Hsp_positive>222</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>KLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>KLSKDTTALLKNFATINSGIXLKSGQFIXTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINXANXKXQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_hseq>
+      <Hsp_midline>KLSKDTTALLKNFATINSGI LKSGQFI TRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIIN AN K QPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gb|EDP8999484.1|</Hit_id>
+  <Hit_def>DNA polymerase [Salmonella enterica subsp. enterica serovar Braenderup]</Hit_def>
+  <Hit_accession>EDP8999484</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>440.269</Hsp_bit-score>
+      <Hsp_score>1131</Hsp_score>
+      <Hsp_evalue>1.08457e-155</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>216</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>215</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>NFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>NFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASVVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_hseq>
+      <Hsp_midline>NFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVAS VTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|YP_004009906.1|</Hit_id>
+  <Hit_def>gp45 sliding clamp, DNA polymerase accessory protein [Enterobacter phage CC31] &gt;gb|ADB81544.1| gp45 sliding clamp, DNA polymerase accessory protein [Enterobacter phage CC31] &gt;gb|AVR55249.1| sliding clamp, DNA polymerase accessory [Enterobacter phage myPSH1140] &gt;gb|QGH71625.1| sliding clamp DNA polymerase accessory protein [Enterobacter phage prasa_myo]</Hit_def>
+  <Hit_accession>YP_004009906</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>392.119</Hsp_bit-score>
+      <Hsp_score>1006</Hsp_score>
+      <Hsp_evalue>1.6576e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>186</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MKLSKDTLNILKNFSTINSGIMLKPGKFIMTRAVNGTTYAEATIADEIDFEVAIYELNGFLGILSLVNEDAEISLADDGNIKIADARSTIFWPAADPSTIVFPSKPIPFPVASVIVDFKSEDLQQLMRVSRGLQIDTITITNKDGKIVLNGFNKVEDSALVRTKYSLTLGDYDGTNNFNFVINMGNMKMQPADYKLLLWAQGKKTAAKFEGEHASYVVAMEADSTHDF</Hsp_hseq>
+      <Hsp_midline>MKLSKDT  +LKNF+TINSGIMLK G+FIMTRAVNGTTYAEA I+D IDF+VAIY+LNGFLGILSLVN+DAEIS ++DGNIKIADARSTIFWPAADPST+V P+KPIPFPVAS + + K+EDLQQL+RVSRGLQIDTI IT K+GKIV+NGFNKVEDSAL R KYSLTLGDYDG N FNF+INM NMKMQP +YKLLLWA+GK+ AAKFEGEHA+YVVA+EADSTHDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gb|QEG13091.1|</Hit_id>
+  <Hit_def>putative sliding clamp [Klebsiella phage vB_KaeM_KaAlpha]</Hit_def>
+  <Hit_accession>QEG13091</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>390.578</Hsp_bit-score>
+      <Hsp_score>1002</Hsp_score>
+      <Hsp_evalue>6.52689e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>185</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MKLSKETLNILKNFSTINSGIMLKPGKFIMTRAVNGTTYAEATIADEIDFEVAIYELNGFLGILSLVNEDAEISLADDGNIKIADARSTIFWPAADPSTIVFPSKPIPFPVASVIVDFKSEDLQQLMRVSRGLQIDTITITNKDGKIVLNGFNKVEDSALVRTKYSLTLGDYDGTNNFNFVINMGNMKMQPADYKLLLWAQGKKTAAKFEGEHASYVVAMEADSTHDF</Hsp_hseq>
+      <Hsp_midline>MKLSK+T  +LKNF+TINSGIMLK G+FIMTRAVNGTTYAEA I+D IDF+VAIY+LNGFLGILSLVN+DAEIS ++DGNIKIADARSTIFWPAADPST+V P+KPIPFPVAS + + K+EDLQQL+RVSRGLQIDTI IT K+GKIV+NGFNKVEDSAL R KYSLTLGDYDG N FNF+INM NMKMQP +YKLLLWA+GK+ AAKFEGEHA+YVVA+EADSTHDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>emb|SCN45737.1|</Hit_id>
+  <Hit_def>Sliding clamp DNA polymerase accessory protein, phage associated [Cronobacter phage Pet-CM3-4]</Hit_def>
+  <Hit_accession>SCN45737</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>390.578</Hsp_bit-score>
+      <Hsp_score>1002</Hsp_score>
+      <Hsp_evalue>7.28323e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>185</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MKLSKETLNILKNFSTINSGIMLKPGKFIMTRAVNGTTYAEAKIADEIDFEVAIYELNGFLGILSLVNEDAEISLADDGNIKIADARSTIFWPAADPSTIVFPSKPIPFPVASVIVDFKSEDLQQLMRVSRGLQIDTITITNKDGKIVLNGFNKVEDSALVRTKYSLTLGDYDGTNNFNFVINMGNMKMQPADYKLLLWAQGKKTAAKFEGEHASYVVAMEADSTHDF</Hsp_hseq>
+      <Hsp_midline>MKLSK+T  +LKNF+TINSGIMLK G+FIMTRAVNGTTYAEA I+D IDF+VAIY+LNGFLGILSLVN+DAEIS ++DGNIKIADARSTIFWPAADPST+V P+KPIPFPVAS + + K+EDLQQL+RVSRGLQIDTI IT K+GKIV+NGFNKVEDSAL R KYSLTLGDYDG N FNF+INM NMKMQP +YKLLLWA+GK+ AAKFEGEHA+YVVA+EADSTHDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|YP_007501085.1|</Hit_id>
+  <Hit_def>sliding clamp [Salmonella phage vB_SenM-S16] &gt;ref|YP_009148038.1| sliding clamp DNA polymerase accessory protein [Salmonella phage STML-198] &gt;ref|YP_009286410.1| sliding clamp [Salmonella phage vB_SnwM_CGG4-1] &gt;ref|YP_009615529.1| sliding clamp DNA polymerase accessory protein [Salmonella phage Melville] &gt;gb|AEO97034.1| sliding clamp [Salmonella phage vB_SenM-S16] &gt;gb|AFU63996.1| sliding clamp DNA polymerase accessory protein [Salmonella phage STML-198] &gt;gb|ANA49398.1| sliding clamp [Salmonella phage vB_SnwM_CGG4-1] &gt;gb|ATN93017.1| sliding clamp DNA polymerase accessory protein [Salmonella phage Melville]</Hit_def>
+  <Hit_accession>YP_007501085</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>390.193</Hsp_bit-score>
+      <Hsp_score>1001</Hsp_score>
+      <Hsp_evalue>8.21681e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>183</Hsp_identity>
+      <Hsp_positive>206</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MKLSKDTLNILKNFSTINSGIMLKQGNFIMTRAVNGTTYAEATIADTIDFEVAIYDLNGFLGILGLVNEDAEISMADDGNVKIADARSTIFWPAADPSTIVFPSKPIPFPVASVIVDFKGEDLQQLMRVSRGLQIDTITFTNKDGKIILNGYNKVEDSALVRVKYSLTLGDYDGTNNFNFVINMANMKMQPASYKLMLWADGKKTAAKFEGEHASYVVAMEADSTHDF</Hsp_hseq>
+      <Hsp_midline>MKLSKDT  +LKNF+TINSGIMLK G FIMTRAVNGTTYAEA I+D IDF+VAIYDLNGFLGIL LVN+DAEIS ++DGN+KIADARSTIFWPAADPST+V P+KPIPFPVAS + + K EDLQQL+RVSRGLQIDTI  T K+GKI++NG+NKVEDSAL RVKYSLTLGDYDG N FNF+INMANMKMQP +YKL+LWA GK+ AAKFEGEHA+YVVA+EADSTHDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|YP_009005312.1|</Hit_id>
+  <Hit_def>sliding clamp [Enterobacter phage PG7] &gt;gb|AHI60951.1| sliding clamp [Enterobacter phage PG7]</Hit_def>
+  <Hit_accession>YP_009005312</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>388.267</Hsp_bit-score>
+      <Hsp_score>996</Hsp_score>
+      <Hsp_evalue>4.80105e-135</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>208</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MKLSKETLNILKNFSTIKSGIMLKPGKFIMTRAVNGTTYAEATIADEIDFEVAIYELNGFLGILSLVNEDAEISLADDGNIKIADARSTIFWPAADPSTIVFPSKPIPFPVASVIVDFKSEDLQQLMRVSRGLQIDTITITNKDGKIVLNGFNKVEDSALVRTKYSLTLGDYDGTNNFNFVINMGNMKMQPADYKLLLWAQGKKTAAKFEGEHASYVVAMEADSTHDF</Hsp_hseq>
+      <Hsp_midline>MKLSK+T  +LKNF+TI SGIMLK G+FIMTRAVNGTTYAEA I+D IDF+VAIY+LNGFLGILSLVN+DAEIS ++DGNIKIADARSTIFWPAADPST+V P+KPIPFPVAS + + K+EDLQQL+RVSRGLQIDTI IT K+GKIV+NGFNKVEDSAL R KYSLTLGDYDG N FNF+INM NMKMQP +YKLLLWA+GK+ AAKFEGEHA+YVVA+EADSTHDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|YP_009126252.1|</Hit_id>
+  <Hit_def>sliding clamp DNA polymerase accessory [Salmonella phage STP4-a] &gt;gb|AHJ86899.1| sliding clamp DNA polymerase accessory [Salmonella phage STP4-a]</Hit_def>
+  <Hit_accession>YP_009126252</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>386.726</Hsp_bit-score>
+      <Hsp_score>992</Hsp_score>
+      <Hsp_evalue>2.30273e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>182</Hsp_identity>
+      <Hsp_positive>205</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MKLSKDTLNILKNFSTINSGIMLKQGNFIMTRAVNGTTYAEATIADTIDFEVAIYDLNGFLGILGLVNEDAEISMADYGNVKIADARSTIFWPAADPSTIVFPSKPIPFPVASVIVDFKGEDLQQLMRVSRGLQIDTITFTNKDGKIILNGYNKVEDSALVRVKYSLTLGDYDGTNNFNFVINMANMKMQPASYKLMLWADGKKTAAKFEGEHASYVVAMEADSTHDF</Hsp_hseq>
+      <Hsp_midline>MKLSKDT  +LKNF+TINSGIMLK G FIMTRAVNGTTYAEA I+D IDF+VAIYDLNGFLGIL LVN+DAEIS ++ GN+KIADARSTIFWPAADPST+V P+KPIPFPVAS + + K EDLQQL+RVSRGLQIDTI  T K+GKI++NG+NKVEDSAL RVKYSLTLGDYDG N FNF+INMANMKMQP +YKL+LWA GK+ AAKFEGEHA+YVVA+EADSTHDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gb|EFC8484998.1|</Hit_id>
+  <Hit_def>DNA polymerase [Escherichia coli]</Hit_def>
+  <Hit_accession>EFC8484998</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>377.481</Hsp_bit-score>
+      <Hsp_score>968</Hsp_score>
+      <Hsp_evalue>1.05591e-130</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>181</Hsp_identity>
+      <Hsp_positive>200</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MKLSKDTIAILKNFASINSGILLSQGKFIMTRAVNGTTYAEANISDEIDFDVALYDLNSFLSILSLVSDDAEISMHTDGNIKIADTRSTVYWPAADKSTIVFPNKPIQFPVASVITEIKAEDLQQLLRVSRGLQIDTIAITNKDGKIVINGYNKVEDSGLTRPKYSLTLTDYDGSNNFNFVINMANMKIQPGNYKVLLWGAGDKVAAKFESSQVSYVIAMEADSTHDF</Hsp_hseq>
+      <Hsp_midline>MKLSKDT A+LKNFA+INSGI+L  G+FIMTRAVNGTTYAEANISD IDFDVA+YDLN FL ILSLV+DDAEIS   DGNIKIAD RST++WPAAD ST+V PNKPI FPVAS +TEIKAEDLQQLLRVSRGLQIDTIAIT K+GKIVING+NKVEDS LTR KYSLTL DYDG N FNF+INMANMK+QPGNYK+LLW  G + AAKFE    +YV+A+EADSTHDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|NP_861750.1|</Hit_id>
+  <Hit_def>sliding clamp [Escherichia phage RB69] &gt;ref|YP_009037449.1| sliding clamp [Escherichia phage vB_EcoM_JS09] &gt;ref|YP_009056644.1| sliding clamp [Escherichia phage vB_EcoM_PhAPEC2] &gt;ref|YP_009100599.1| sliding clamp [Shigella phage Shf125875] &gt;ref|YP_009225206.1| sliding clamp [Escherichia phage APCEc01] &gt;ref|YP_009592908.1| hypothetical protein ECTP3_00351 [Escherichia coli O157 typing phage 3] &gt;ref|YP_009593067.1| hypothetical protein ECTP6_00950 [Escherichia coli O157 typing phage 6] &gt;ref|YP_009608348.1| sliding clamp [Escherichia phage ST0] &gt;sp|O80164.1| RecName: Full=DNA polymerase processivity component; AltName: Full=DNA polymerase accessory protein 45; AltName: Full=Gp45 [Escherichia phage RB69] &gt;pdb|1B77|A Chain A, Building A Replisome Structure From Interacting Pieces: A Sliding Clamp Complexed With An Interaction Peptide From Dna Polymerase [Escherichia phage RB69] &gt;pdb|1B77|B Chain B, Building A Replisome Structure From Interacting Pieces: A Sliding Clamp Complexed With An Interaction Peptide From Dna Polymerase [Escherichia phage RB69] &gt;pdb|1B77|C Chain C, Building A Replisome Structure From Interacting Pieces: A Sliding Clamp Complexed With An Interaction Peptide From Dna Polymerase [Escherichia phage RB69] &gt;pdb|1B8H|A Chain A, Sliding Clamp, Dna Polymerase [Escherichia phage RB69] &gt;pdb|1B8H|B Chain B, Sliding Clamp, Dna Polymerase [Escherichia phage RB69] &gt;pdb|1B8H|C Chain C, Sliding Clamp, Dna Polymerase [Escherichia phage RB69] &gt;gb|AKE46809.1| hypothetical protein ECTP13_02033 [Escherichia coli O157 typing phage 13] &gt;gb|ALY07880.1| sliding clamp DNA polymerase [Escherichia phage phiE142] &gt;gb|ANZ51119.1| sliding clamp DNA polymerase accessory protein [Enterobacteria phage ATK47] &gt;gb|ANZ51250.1| sliding clamp DNA polymerase accessory protein [Enterobacteria phage ATK48] &gt;gb|ARM70875.1| sliding clamp protein [Escherichia phage phiC120] &gt;gb|AWM11758.1| sliding clamp DNA polymerase accessory protein [Escherichia phage vB_EcoM_NBG1] &gt;gb|AYD79260.1| hypothetical protein FFEPELFE_00018 [Shigella phage phi25-307] &gt;gb|AYN56362.1| DNA polymerase processivity component [Escherichia phage p000v] &gt;gb|AYN56546.1| DNA polymerase processivity component [Escherichia phage p000y] &gt;gb|AYR03969.1| sliding clamp [Escherichia phage OLB35] &gt;gb|EAA6275523.1| DNA polymerase [Salmonella enterica subsp. enterica] &gt;gb|EEU1769378.1| DNA polymerase [Escherichia coli] &gt;gb|QBO65195.1| putative sliding clamp [Escherichia phage vB_EcoM_G53] &gt;gb|QBP05674.1| sliding clamp DNA polymerase accessory protein [Escherichia phage PHB12] &gt;gb|QBQ77561.1| putative sliding clamp [Escherichia phage vB_EcoM_WFbE185] &gt;gb|QBQ78614.1| putative sliding clamp [Escherichia phage vB_EcoM_KAW3E185] &gt;gb|QBQ79105.1| putative sliding clamp [Escherichia phage vB_EcoM_MM02] &gt;gb|QEG05635.1| sliding clamp [Shigella phage JK36] &gt;gb|QEG06172.1| sliding clamp [Shigella phage JK42] &gt;gb|QEG06443.1| sliding clamp [Shigella phage JK45] &gt;gb|QGT55262.1| sliding clamp DNA polymerase accessory protein [Escherichia phage FP43] &gt;gb|QHR67128.1| sliding clamp DNA polymerase accessory protein [Escherichia phage mogra] &gt;gb|QHR68261.1| sliding clamp DNA polymerase accessory protein [Escherichia phage moha] &gt;gb|QHR72756.1| sliding clamp DNA polymerase accessory protein [Escherichia phage mobillu] &gt;gb|QHR76515.1| sliding clamp DNA polymerase accessory protein [Escherichia phage moskry] &gt;gb|QIG57393.1| sliding clamp [Escherichia phage F2] &gt;emb|VCU43393.1| sliding clamp [Escherichia virus vB_Eco_mar005P1]</Hit_def>
+  <Hit_accession>NP_861750</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>376.326</Hsp_bit-score>
+      <Hsp_score>965</Hsp_score>
+      <Hsp_evalue>2.48298e-130</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>180</Hsp_identity>
+      <Hsp_positive>200</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MKLSKDTIAILKNFASINSGILLSQGKFIMTRAVNGTTYAEANISDEIDFDVALYDLNSFLSILSLVSDDAEISMHTDGNIKIADTRSTVYWPAADKSTIVFPNKPIQFPVASVITEIKAEDLQQLLRVSRGLQIDTIAITNKDGKIVINGYNKVEDSGLTRPKYSLTLTDYDGSNNFNFVINMANMKIQPGNYKVMLWGAGDKVAAKFESSQVSYVIAMEADSTHDF</Hsp_hseq>
+      <Hsp_midline>MKLSKDT A+LKNFA+INSGI+L  G+FIMTRAVNGTTYAEANISD IDFDVA+YDLN FL ILSLV+DDAEIS   DGNIKIAD RST++WPAAD ST+V PNKPI FPVAS +TEIKAEDLQQLLRVSRGLQIDTIAIT K+GKIVING+NKVEDS LTR KYSLTL DYDG N FNF+INMANMK+QPGNYK++LW  G + AAKFE    +YV+A+EADSTHDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gb|AWY07944.1|</Hit_id>
+  <Hit_def>sliding clamp [Escherichia phage SF] &gt;gb|QBZ70997.1| sliding clamp DNA polymerase accessory protein [Shigella phage SSE1]</Hit_def>
+  <Hit_accession>AWY07944</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>375.555</Hsp_bit-score>
+      <Hsp_score>963</Hsp_score>
+      <Hsp_evalue>5.64983e-130</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>180</Hsp_identity>
+      <Hsp_positive>200</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MKLSKDTIAILKNFASINSGILLSQGKFIMTRAVNGTTYAEANISDEIDFDVALYDLNSFLSILSLVSDDAEISMHTDGNIKIADTRSTVYWPAADKSTIVFPNKPIQFPVASVITEIKAEDLQQLLRVSRGLQIDTIAITNKDGKIVINGYNKVEDSGLTRPKYSLTLTDYDGSNNFNFVINMANMKIQPGNYKVMLWGAGDKVAAKFESPQVSYVIAMEADSTHDF</Hsp_hseq>
+      <Hsp_midline>MKLSKDT A+LKNFA+INSGI+L  G+FIMTRAVNGTTYAEANISD IDFDVA+YDLN FL ILSLV+DDAEIS   DGNIKIAD RST++WPAAD ST+V PNKPI FPVAS +TEIKAEDLQQLLRVSRGLQIDTIAIT K+GKIVING+NKVEDS LTR KYSLTL DYDG N FNF+INMANMK+QPGNYK++LW  G + AAKFE    +YV+A+EADSTHDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gb|QBQ76819.1|</Hit_id>
+  <Hit_def>putative sliding clamp [Escherichia phage vB_EcoM_WFL6982] &gt;gb|QBQ77080.1| putative sliding clamp [Escherichia phage vB_EcoM_WFK]</Hit_def>
+  <Hit_accession>QBQ76819</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>375.17</Hsp_bit-score>
+      <Hsp_score>962</Hsp_score>
+      <Hsp_evalue>7.8498e-130</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>179</Hsp_identity>
+      <Hsp_positive>200</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MKLSKDTIAILKNFASINSGILLSQGKFIMTRAVNGTTYAEANISDEIDFDVALYDLNSFLSILSLVSDDAEISMHTDGNIKIADTRSTVYWPAADKSTIVFPNKPIQFPMASVITEIKAEDLQQLLRVSRGLQIDTIAITNKDGKIVINGYNKVEDSGLTRPKYSLTLTDYDGSNNFNFVINMANMKIQPGNYKVMLWGAGDKVAAKFESSQVSYVIAMEADSTHDF</Hsp_hseq>
+      <Hsp_midline>MKLSKDT A+LKNFA+INSGI+L  G+FIMTRAVNGTTYAEANISD IDFDVA+YDLN FL ILSLV+DDAEIS   DGNIKIAD RST++WPAAD ST+V PNKPI FP+AS +TEIKAEDLQQLLRVSRGLQIDTIAIT K+GKIVING+NKVEDS LTR KYSLTL DYDG N FNF+INMANMK+QPGNYK++LW  G + AAKFE    +YV+A+EADSTHDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gb|QBO62486.1|</Hit_id>
+  <Hit_def>putative sliding clamp [Escherichia phage vB_EcoM_G2285]</Hit_def>
+  <Hit_accession>QBO62486</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>372.089</Hsp_bit-score>
+      <Hsp_score>954</Hsp_score>
+      <Hsp_evalue>1.34235e-128</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>177</Hsp_identity>
+      <Hsp_positive>199</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MKLSRETVNILKNFASINSGILLSQGKFIMTRAVNGTTYAEANISDEIDFDVALYDLNSFLSILSLVSDDAEISMHTDGNIKIADTRSTVYWPAADKSTIVFPNKPIQFPVASVITEIKAEDLQQLLRVSRGLQIDTIAITNKDGKIVINGYNKVEDSGLTRPKYSLTLTDYDGSNNFNFVINMANMKIQPGNYKVMLWGAGDKVAAKFESSQVSYVIAMEADSTHDF</Hsp_hseq>
+      <Hsp_midline>MKLS++T  +LKNFA+INSGI+L  G+FIMTRAVNGTTYAEANISD IDFDVA+YDLN FL ILSLV+DDAEIS   DGNIKIAD RST++WPAAD ST+V PNKPI FPVAS +TEIKAEDLQQLLRVSRGLQIDTIAIT K+GKIVING+NKVEDS LTR KYSLTL DYDG N FNF+INMANMK+QPGNYK++LW  G + AAKFE    +YV+A+EADSTHDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|YP_009203767.1|</Hit_id>
+  <Hit_def>sliding clamp [Citrobacter phage Merlin] &gt;ref|YP_009618114.1| sliding clamp [Citrobacter phage CF1 ERZ-2017] &gt;gb|AKU43699.1| sliding clamp [Citrobacter phage Merlin] &gt;gb|AUE22928.1| sliding clamp [Citrobacter phage CF1 ERZ-2017]</Hit_def>
+  <Hit_accession>YP_009203767</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>369.392</Hsp_bit-score>
+      <Hsp_score>947</Hsp_score>
+      <Hsp_evalue>1.58113e-127</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>176</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MKFTKETLAILKNFSTINSGVMLKPGKFIMTRAVNGTTYAEANIADEIDFEVAIYDLPSFLGILGLVSEDAEISMADDGNIKIADARSKIFWPAADASTIVFPSKPIPFPTASVIVDFKGEDLQQLMRVSRGLQIDTIAIANKEDKIVLSGYNKVEDSALVRPKYSLTLGDYDGTNNFNFVINMANMKMQPASYKLLLWADGKKTAAKFEGEAASYVVAMEADSTHDF</Hsp_hseq>
+      <Hsp_midline>MK +K+T A+LKNF+TINSG+MLK G+FIMTRAVNGTTYAEANI+D IDF+VAIYDL  FLGIL LV++DAEIS ++DGNIKIADARS IFWPAAD ST+V P+KPIPFP AS + + K EDLQQL+RVSRGLQIDTIAI  KE KIV++G+NKVEDSAL R KYSLTLGDYDG N FNF+INMANMKMQP +YKLLLWA GK+ AAKFEGE A+YVVA+EADSTHDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|YP_009146487.1|</Hit_id>
+  <Hit_def>sliding clamp [Citrobacter phage Moon] &gt;gb|AIX12025.1| sliding clamp [Citrobacter phage Moon]</Hit_def>
+  <Hit_accession>YP_009146487</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>368.237</Hsp_bit-score>
+      <Hsp_score>944</Hsp_score>
+      <Hsp_evalue>4.67989e-127</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>175</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MKFTKETLAILKNFSTINSGVMLKPGKFIMTRAVNGTTYAEANIADEIDFEVAIYDLPSFLGILGLVSEDAEISMADDGNIKIADARSKIFWPAADASTIVFPSKPIPFPTASVIVDFKGEDLQQLMRVSRGLQIDTIAIANKEDKIVLSGYNKVEDSALVRPKYSLTLGDYDGTNNFNFVINMANMKMQPASYKLLLWADGKKTAAKFEGEAASYVVAMESDSTHDF</Hsp_hseq>
+      <Hsp_midline>MK +K+T A+LKNF+TINSG+MLK G+FIMTRAVNGTTYAEANI+D IDF+VAIYDL  FLGIL LV++DAEIS ++DGNIKIADARS IFWPAAD ST+V P+KPIPFP AS + + K EDLQQL+RVSRGLQIDTIAI  KE KIV++G+NKVEDSAL R KYSLTLGDYDG N FNF+INMANMKMQP +YKLLLWA GK+ AAKFEGE A+YVVA+E+DSTHDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gb|AUV57388.1|</Hit_id>
+  <Hit_def>sliding clamp, DNA polymerase accessory protein [Klebsiella phage KP1] &gt;gb|QEG11647.1| sliding clamp [Klebsiella phage KPN6]</Hit_def>
+  <Hit_accession>AUV57388</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>350.132</Hsp_bit-score>
+      <Hsp_score>897</Hsp_score>
+      <Hsp_evalue>8.6732e-120</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>173</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAK----GKQGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MKFSKETLNILKNFSTINSGIMLKPGNFIMTRAVNGTTYAEATISDTIDTDVAIYDLNSFLSILSLVGDDADIIMQEDGNLAIKDARSTIFWPAADPSTIVFPTKPIPFPVANVIIDFKGEDLQQLMRVSRGMQIDTIAITNVDGKIVLRGYNKVEDAALTRPKYSLTLGDYDGEGNFNFIINMSNMKMTVGDYKLMLWAKMNGSKKQTAAKFEGASASYVVAMEADSTFDF</Hsp_hseq>
+      <Hsp_midline>MK SK+T  +LKNF+TINSGIMLK G FIMTRAVNGTTYAEA ISD ID DVAIYDLN FL ILSLV DDA+I   EDGN+ I DARSTIFWPAADPST+V P KPIPFPVA+ + + K EDLQQL+RVSRG+QIDTIAIT  +GKIV+ G+NKVED+ALTR KYSLTLGDYDGE  FNFIINM+NMKM  G+YKL+LWAK     KQ AAKFEG  A+YVVA+EADST DF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gb|QEG11463.1|</Hit_id>
+  <Hit_def>sliding clamp [Klebsiella phage KPN5] &gt;gb|QGF21461.1| sliding clamp DNA polymerase accessory protein [Klebsiella phage JIPh_Kp122]</Hit_def>
+  <Hit_accession>QEG11463</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>349.747</Hsp_bit-score>
+      <Hsp_score>896</Hsp_score>
+      <Hsp_evalue>9.26253e-120</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>173</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAK----GKQGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MKFSKETLNILKNFSTINSGIMLKPGNFIMTRAVNGTTYAEATISDTIDTDVAIYDLNSFLSILSLVGDDADIIMQEDGNLAIKDARSTIFWPAADPSTIVFPTKPIPFPVANVIIDFKGEDLQQLMRVSRGMQIDTIAITNVDGKIVLRGYNKVEDAALTRPKYSLTLGDYDGEGNFNFIINMSNMKMTVGDYKLMLWAKMNGAKKQTAAKFEGASASYVVAMEADSTFDF</Hsp_hseq>
+      <Hsp_midline>MK SK+T  +LKNF+TINSGIMLK G FIMTRAVNGTTYAEA ISD ID DVAIYDLN FL ILSLV DDA+I   EDGN+ I DARSTIFWPAADPST+V P KPIPFPVA+ + + K EDLQQL+RVSRG+QIDTIAIT  +GKIV+ G+NKVED+ALTR KYSLTLGDYDGE  FNFIINM+NMKM  G+YKL+LWAK     KQ AAKFEG  A+YVVA+EADST DF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|WP_110203373.1|</Hit_id>
+  <Hit_def>DNA polymerase [Klebsiella variicola] &gt;gb|PXM00540.1| DNA polymerase [Klebsiella variicola]</Hit_def>
+  <Hit_accession>WP_110203373</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>349.747</Hsp_bit-score>
+      <Hsp_score>896</Hsp_score>
+      <Hsp_evalue>1.19171e-119</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>173</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAK----GKQGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MKFSKETLNILKNFSTINSGIMLKPGNFIMTRAVNGTTYAEATISDTIDTDVAIYDLNSFLSILSLVGDDADIIMQEDGNLAIKDARSTIFWPAADPSTIVFPTKPIPFPVANVIIDFKGEDLQQLMRVSRGMQIDTIAITNVDGKIVLRGYNKVEDAALTRPKYSLTLGDYDGEGNFNFIINMSNMKMTIGDYKLMLWAKMNGSKKQTAAKFEGASASYVVAMEADSTFDF</Hsp_hseq>
+      <Hsp_midline>MK SK+T  +LKNF+TINSGIMLK G FIMTRAVNGTTYAEA ISD ID DVAIYDLN FL ILSLV DDA+I   EDGN+ I DARSTIFWPAADPST+V P KPIPFPVA+ + + K EDLQQL+RVSRG+QIDTIAIT  +GKIV+ G+NKVED+ALTR KYSLTLGDYDGE  FNFIINM+NMKM  G+YKL+LWAK     KQ AAKFEG  A+YVVA+EADST DF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|YP_009190610.1|</Hit_id>
+  <Hit_def>hypothetical protein JD18_029 [Klebsiella phage JD18] &gt;gb|AKY01900.1| hypothetical protein JD18_029 [Klebsiella phage JD18]</Hit_def>
+  <Hit_accession>YP_009190610</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>348.206</Hsp_bit-score>
+      <Hsp_score>892</Hsp_score>
+      <Hsp_evalue>3.76526e-119</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>172</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAK----GKQGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MKFSKETLNILKNFSTINSGIMLKPGNFIMTRAVNGTTYAEATISDTIDTDVAIYDLNSFLSILSLVGDDADIIMQEDGNLAIKDARSTIFWPAADPSTIVFPTKPIPFPVANVIIDFKGEDLQQLMRVSRGMQIDTIAITNVDGKIVLRGYNKVEDAALTRPKYSLTLGDYDGDGNFNFIINMSNMKMTVGDYKLMLWAKMNGAKKQTAAKFEGASASYVVAMEADSTFDF</Hsp_hseq>
+      <Hsp_midline>MK SK+T  +LKNF+TINSGIMLK G FIMTRAVNGTTYAEA ISD ID DVAIYDLN FL ILSLV DDA+I   EDGN+ I DARSTIFWPAADPST+V P KPIPFPVA+ + + K EDLQQL+RVSRG+QIDTIAIT  +GKIV+ G+NKVED+ALTR KYSLTLGDYDG+  FNFIINM+NMKM  G+YKL+LWAK     KQ AAKFEG  A+YVVA+EADST DF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gb|APD20425.1|</Hit_id>
+  <Hit_def>sliding clamp DNA polymerase accessory protein [Klebsiella phage KPV15] &gt;gb|QEG11003.1| sliding clamp DNA polymerase accessory protein [Klebsiella phage KPN2 HKu-2019]</Hit_def>
+  <Hit_accession>APD20425</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>346.665</Hsp_bit-score>
+      <Hsp_score>888</Hsp_score>
+      <Hsp_evalue>1.61672e-118</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>171</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAK----GKQGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MKFSKETLNILKNFSTINSGIMLKPGNFIMTRAVNGTTYAEATISDTIDTDVAIYDLNSFLSILSLVGDDADIIMQEDGNLAIKDARSTIFWPAADPSTIVFPTKPIPFPVANVIIDFKGEDLQQLMRVSRGMQIDTIAITNVDGKIVLRGYNKVEDAALTRPKYSLTLGDYEGDGNFNFIINMSNMKMTVGDYKLMLWAKMNGSKKQTAAKFEGASASYVVAMEADSTFDF</Hsp_hseq>
+      <Hsp_midline>MK SK+T  +LKNF+TINSGIMLK G FIMTRAVNGTTYAEA ISD ID DVAIYDLN FL ILSLV DDA+I   EDGN+ I DARSTIFWPAADPST+V P KPIPFPVA+ + + K EDLQQL+RVSRG+QIDTIAIT  +GKIV+ G+NKVED+ALTR KYSLTLGDY+G+  FNFIINM+NMKM  G+YKL+LWAK     KQ AAKFEG  A+YVVA+EADST DF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|YP_009289499.1|</Hit_id>
+  <Hit_def>sliding clamp [Klebsiella phage PKO111] &gt;gb|AKJ73151.1| sliding clamp [Klebsiella phage PKO111]</Hit_def>
+  <Hit_accession>YP_009289499</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>346.665</Hsp_bit-score>
+      <Hsp_score>888</Hsp_score>
+      <Hsp_evalue>1.72657e-118</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>171</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAK----GKQGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MKFSKETLNILKNFSTINSGIMLKPGNFIMTRAVNGTTYAEATISDTIDTDVAIYDLNSFLSILSLVGDDADIIMQEDGNLAIKDARSTIFWPAADPSTIVFPTKPIPFPVANVIIDFKGEDLQQLMRVSRGMQIDTIAITNVDGKIVLRGYNKVEDAALTRPKYSLTLGDYEGDGNFNFIINMSNMKMTVGDYKLMLWAKMNGAKKQTAAKFEGASASYVVAMEADSTFDF</Hsp_hseq>
+      <Hsp_midline>MK SK+T  +LKNF+TINSGIMLK G FIMTRAVNGTTYAEA ISD ID DVAIYDLN FL ILSLV DDA+I   EDGN+ I DARSTIFWPAADPST+V P KPIPFPVA+ + + K EDLQQL+RVSRG+QIDTIAIT  +GKIV+ G+NKVED+ALTR KYSLTLGDY+G+  FNFIINM+NMKM  G+YKL+LWAK     KQ AAKFEG  A+YVVA+EADST DF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|WP_153932212.1|</Hit_id>
+  <Hit_def>DNA polymerase [Klebsiella pneumoniae] &gt;ref|YP_009288725.1| putative sliding clamp, DNA polymerase accessory protein [Klebsiella phage vB_KpnM_KpV477] &gt;gb|AWY06940.1| sliding clamp [Klebsiella phage Mineola] &gt;gb|AYD80837.1| sliding clamp DNA polymerase accessory protein [Klebsiella phage KP179] &gt;gb|QBA85006.1| sliding clamp DNA polymerase accessory protein [Klebsiella phage vB_KpnM_GF] &gt;gb|ANT40486.1| putative sliding clamp, DNA polymerase accessory protein [Klebsiella phage vB_KpnM_KpV477] &gt;gb|MRL95020.1| DNA polymerase [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>WP_153932212</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>346.28</Hsp_bit-score>
+      <Hsp_score>887</Hsp_score>
+      <Hsp_evalue>2.22136e-118</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>171</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAK----GKQGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MKFSKETLNILKNFSTINSGIMLKPGNFIMTRAVNGTTYAEATISDTIDTDVAIYDLNSFLSILSLVGDDADIIMQEDGNLAIKDARSTIFWPAADPSTIVFPTKPIPFPVANVIIDFKGEDLQQLMRVSRGMQIDTIAITNVDGKIVLRGYNKVEDAALTRPKYSLTLGDYEGDGNFNFIINMSNMKMTIGDYKLMLWAKMNGSKKQTAAKFEGASASYVVAMEADSTFDF</Hsp_hseq>
+      <Hsp_midline>MK SK+T  +LKNF+TINSGIMLK G FIMTRAVNGTTYAEA ISD ID DVAIYDLN FL ILSLV DDA+I   EDGN+ I DARSTIFWPAADPST+V P KPIPFPVA+ + + K EDLQQL+RVSRG+QIDTIAIT  +GKIV+ G+NKVED+ALTR KYSLTLGDY+G+  FNFIINM+NMKM  G+YKL+LWAK     KQ AAKFEG  A+YVVA+EADST DF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|YP_009288962.1|</Hit_id>
+  <Hit_def>sliding clamp DNA polymerase accessory protein [Shigella phage SHSML-52-1] &gt;gb|ANN87471.1| sliding clamp DNA polymerase accessory protein [Shigella phage SHSML-52-1]</Hit_def>
+  <Hit_accession>YP_009288962</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>331.643</Hsp_bit-score>
+      <Hsp_score>849</Hsp_score>
+      <Hsp_evalue>4.17274e-113</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>158</Hsp_identity>
+      <Hsp_positive>174</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>MTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MTRAVNGTTYAEANISDEIDFDVALYDLNSFLSILSLVSDDAEISMHTDGNIKIADTRSTVYWPAADKSTIVFPNKPIQFPVASVITEIKAEDLQQLLRVSRGLQIDTIAITNKDGKIVINGYNKVEDSGLTRPKYSLTLTDYDGSNNFNFVINMANMKIQPGNYKVMLWGAGDKVAAKFESSQVSYVIAMEADSTHDF</Hsp_hseq>
+      <Hsp_midline>MTRAVNGTTYAEANISD IDFDVA+YDLN FL ILSLV+DDAEIS   DGNIKIAD RST++WPAAD ST+V PNKPI FPVAS +TEIKAEDLQQLLRVSRGLQIDTIAIT K+GKIVING+NKVEDS LTR KYSLTL DYDG N FNF+INMANMK+QPGNYK++LW  G + AAKFE    +YV+A+EADSTHDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gb|AWD90481.1|</Hit_id>
+  <Hit_def>sliding clamp DNA polymerase accessory protein [Erwinia phage Cronus]</Hit_def>
+  <Hit_accession>AWD90481</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>312.383</Hsp_bit-score>
+      <Hsp_score>799</Hsp_score>
+      <Hsp_evalue>5.22284e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>180</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MKLTKETLNILKNFSTINSGIMLNKGNFIMTRAVNGTIYADAKINDTIDADVAIYDLNGFLSIVSLVGEGAEIGIESDGNISIKDTRSTIYWPSADPSTISFPSKAVQFPVANVIFELKGEDMTQLMRVSRSMGIDTLGITTEDGKIVINGYNKAADSASMKVLYSLTAGEYDGTNEFNFFVNMSNMKMQPSDYKVLIAVVGKKGAIKFEGSHANYVLAFEADSQHNF</Hsp_hseq>
+      <Hsp_midline>MKL+K+T  +LKNF+TINSGIML  G FIMTRAVNGT YA+A I+D ID DVAIYDLNGFL I+SLV + AEI    DGNI I D RSTI+WP+ADPST+  P+K + FPVA+ + E+K ED+ QL+RVSR + IDT+ IT ++GKIVING+NK  DSA  +V YSLT G+YDG N FNF +NM+NMKMQP +YK+L+   GK+GA KFEG HANYV+A EADS H+F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|YP_009609376.1|</Hit_id>
+  <Hit_def>sliding clamp protein [Serratia phage CHI14] &gt;gb|ARW57474.1| sliding clamp protein [Serratia phage CHI14] &gt;gb|ARW57749.1| sliding clamp protein [Serratia phage CBH8]</Hit_def>
+  <Hit_accession>YP_009609376</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>301.597</Hsp_bit-score>
+      <Hsp_score>771</Hsp_score>
+      <Hsp_evalue>1.18412e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSED-GNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MKLSKDTLNILKNFSTINSGIMLKKGNFIMTRSVIGAVYGESTISDEIDIEAAIYDLPGFLSILGLVGEDAEISVSKDQTTIVIKDQRSTIHWPIADASTIAFPSKPIPFPVAKVIFELKGEDLQQLMRVSRGLQIDTLAITNVDGHIEIRGYNAVADSALTNVLYTLALGEYNGTNNFNFVINMTNMKMIPADYKVMLWAQDKKFASKFEGAQSSYVIAMEATSTHDF</Hsp_hseq>
+      <Hsp_midline>MKLSKDT  +LKNF+TINSGIMLK G FIMTR+V G  Y E+ ISD ID + AIYDL GFL IL LV +DAEIS S+D   I I D RSTI WP AD ST+  P+KPIPFPVA  + E+K EDLQQL+RVSRGLQIDT+AIT  +G I I G+N V DSALT V Y+L LG+Y+G N FNF+INM NMKM P +YK++LWA+ K+ A+KFEG  ++YV+A+EA STHDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gb|ARW58023.1|</Hit_id>
+  <Hit_def>sliding clamp protein [Serratia phage X20]</Hit_def>
+  <Hit_accession>ARW58023</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>298.901</Hsp_bit-score>
+      <Hsp_score>764</Hsp_score>
+      <Hsp_evalue>1.24547e-99</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSED-GNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MKLSKDTLNILKNFSSINSGIMLKPGNFIMTRSVIGSVYGEATISSEIDIEAAVYDLPGFLSILGLVGEDAEISVSKDQTTIVIKDQRSTIHWPIADASTIAFPSKPIPFPVAKVIFELKGEDLQQLMRVSRGLQIDTLAITNVDGHIEIRGYNAVADSALTNVLYTLALGEYNGTNNFNFVINMTNMKMIPADYKVMLWAQDKKFASKFEGAQSSYVIAMEATSTHDF</Hsp_hseq>
+      <Hsp_midline>MKLSKDT  +LKNF++INSGIMLK G FIMTR+V G+ Y EA IS  ID + A+YDL GFL IL LV +DAEIS S+D   I I D RSTI WP AD ST+  P+KPIPFPVA  + E+K EDLQQL+RVSRGLQIDT+AIT  +G I I G+N V DSALT V Y+L LG+Y+G N FNF+INM NMKM P +YK++LWA+ K+ A+KFEG  ++YV+A+EA STHDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>dbj|BBC78097.1|</Hit_id>
+  <Hit_def>Sliding clamp protein [Escherichia phage EcS1]</Hit_def>
+  <Hit_accession>BBC78097</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.819</Hsp_bit-score>
+      <Hsp_score>756</Hsp_score>
+      <Hsp_evalue>2.0514e-98</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>176</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGN-IKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MKLSKDTLNILKNFSSINSGIMLKKGKFIMTRSVTGTIYGDSTISDEIDIEAAIYDLPGFLSILGLVGEDANISISNDQTTLVIKDQRSTIHWPIADASTIAFPNKPIPFPMAKVIFELKGEDLQQLMRVSRGLQIDTLAITNKDGNIEIRGYNGVSDSSLTNVLYSLQVGEYDGTTDFNFVINMSNMKMIPADYKVMLWAQDKKFACKFEGGQSSYVIAMEATSTHGF</Hsp_hseq>
+      <Hsp_midline>MKLSKDT  +LKNF++INSGIMLK G+FIMTR+V GT Y ++ ISD ID + AIYDL GFL IL LV +DA IS S D   + I D RSTI WP AD ST+  PNKPIPFP+A  + E+K EDLQQL+RVSRGLQIDT+AIT K+G I I G+N V DS+LT V YSL +G+YDG   FNF+INM+NMKM P +YK++LWA+ K+ A KFEG  ++YV+A+EA STH F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gb|QBO62749.1|</Hit_id>
+  <Hit_def>putative sliding clamp [Escherichia phage vB_EcoM_G2469]</Hit_def>
+  <Hit_accession>QBO62749</Hit_accession>
+  <Hit_len>178</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>290.426</Hsp_bit-score>
+      <Hsp_score>742</Hsp_score>
+      <Hsp_evalue>4.90597e-97</Hsp_evalue>
+      <Hsp_query-from>52</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>178</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>VAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>IALYDLNSFLSILSLVSDDAEISMHTDGNIKIADTRSTVYWPAADKSTIVFPNKPIQFPVASVITEIKAEDLQQLLRVSRGLQIDTIAITNKDGKIVINGYNKVEDSGLTRPKYSLTLTDYDGSNNFNFVINMANMKIQPGNYKVMLWGAGDKVAAKFESSQVSYVIAMEADSTHDF</Hsp_hseq>
+      <Hsp_midline>+A+YDLN FL ILSLV+DDAEIS   DGNIKIAD RST++WPAAD ST+V PNKPI FPVAS +TEIKAEDLQQLLRVSRGLQIDTIAIT K+GKIVING+NKVEDS LTR KYSLTL DYDG N FNF+INMANMK+QPGNYK++LW  G + AAKFE    +YV+A+EADSTHDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|YP_009190214.1|</Hit_id>
+  <Hit_def>sliding clamp, DNA polymerase accessory protein [Edwardsiella phage PEi20] &gt;dbj|BAQ22706.1| sliding clamp, DNA polymerase accessory protein [Edwardsiella phage PEi20] &gt;dbj|BAQ23007.1| sliding clamp, DNA polymerase accessory protein [Edwardsiella phage PEi26]</Hit_def>
+  <Hit_accession>YP_009190214</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>287.345</Hsp_bit-score>
+      <Hsp_score>734</Hsp_score>
+      <Hsp_evalue>4.26007e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSED-GNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MKFSKDTIAVLKNFSGIYSGIMLRPGNTILTRSVTGASYGEAEVNDEIDIEAAIYDLNGFLSILSLVSDSAEVSVSEDETTLVIRDQRSTIHWPVADPSTIVFPAKKIPFPVANVIFDLKGEDLQQLMRVARGMQIDTLVFRSKDGKIVIDGHNQLEDKDLVRTIYSLVVGDYDAPEQFKFIINMSNMRMIPADYRVMLWAKDKKFATKFEGSQASYVIAMEEGSTHEF</Hsp_hseq>
+      <Hsp_midline>MK SKDT A+LKNF+ I SGIML+ G  I+TR+V G +Y EA ++D ID + AIYDLNGFL ILSLV+D AE+S SED   + I D RSTI WP ADPST+V P K IPFPVA+ + ++K EDLQQL+RV+RG+QIDT+    K+GKIVI+G N++ED  L R  YSL +GDYD    F FIINM+NM+M P +Y+++LWAK K+ A KFEG  A+YV+A+E  STH+F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|YP_003934678.1|</Hit_id>
+  <Hit_def>sliding clamp DNA polymerase accessory protein [Shigella phage SP18] &gt;ref|YP_004063738.1| sliding clamp [Escherichia phage vB_EcoM_VR7] &gt;ref|YP_009207231.1| sliding clamp [Escherichia phage vB_EcoM_VR20] &gt;ref|YP_009209797.1| sliding clamp [Escherichia phage vB_EcoM_VR25] &gt;gb|ADO19395.1| sliding clamp DNA polymerase accessory protein [Shigella phage SP18] &gt;gb|ADR32432.1| sliding clamp [Escherichia phage vB_EcoM_VR7] &gt;gb|AIZ02110.1| sliding clamp [Escherichia phage vB_EcoM_VR20] &gt;gb|AIZ02399.1| sliding clamp [Escherichia phage vB_EcoM_VR25]</Hit_def>
+  <Hit_accession>YP_003934678</Hit_accession>
+  <Hit_len>231</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>285.034</Hsp_bit-score>
+      <Hsp_score>728</Hsp_score>
+      <Hsp_evalue>3.72044e-94</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>171</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDG-NIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MKFSKDTIAVLKNFTSIYSGIMLKPGNTILTRSVTGASYGESEINDTIDFEAAIYDLNGFLSILGLVTDQAEVSLAEDASNIIIKDQRSTIHWPAADPSTIVFPAKKIPFPVAKVIFDLKGSDLQQLLRVAGGLSLDTFAITNKDGKIVIHGYNQLEDKELARPLYSLVCGDYEGDAAFKFIINKLNMKMIPADYRVMLWAKDDKFATKFEGTQASYVIAMEQGSSHEF</Hsp_hseq>
+      <Hsp_midline>MK SKDT A+LKNF +I SGIMLK G  I+TR+V G +Y E+ I+D IDF+ AIYDLNGFL IL LV D AE+S +ED  NI I D RSTI WPAADPST+V P K IPFPVA  + ++K  DLQQLLRV+ GL +DT AIT K+GKIVI+G+N++ED  L R  YSL  GDY+G+  F FIIN  NMKM P +Y+++LWAK  + A KFEG  A+YV+A+E  S+H+F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>ref|YP_009213889.1|</Hit_id>
+  <Hit_def>DNA polymerase processivity factor [Escherichia phage vB_EcoM_VR26] &gt;gb|AIZ02689.1| DNA polymerase processivity factor [Escherichia phage vB_EcoM_VR26]</Hit_def>
+  <Hit_accession>YP_009213889</Hit_accession>
+  <Hit_len>231</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.878</Hsp_bit-score>
+      <Hsp_score>725</Hsp_score>
+      <Hsp_evalue>9.02386e-94</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>171</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDG-NIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MKFSRDTIAVLKNFTSIYSGIMLKPGNTILTRSVTGASYGESEINDTIDFEAAIYDLNGFLSILGLVTDQAEVSLAEDASNIIIKDQRSTIHWPAADPSTIVFPAKKIPFPVAKVIFDLKGSDLQQLLRVAGGLSLDTFAITNKDGKIVIHGYNQLEDKELARPLYSLVCGDYEGDAAFKFIINKLNMKMIPADYRVMLWAKDDKFATKFEGTQASYVIAMEQGSSHEF</Hsp_hseq>
+      <Hsp_midline>MK S+DT A+LKNF +I SGIMLK G  I+TR+V G +Y E+ I+D IDF+ AIYDLNGFL IL LV D AE+S +ED  NI I D RSTI WPAADPST+V P K IPFPVA  + ++K  DLQQLLRV+ GL +DT AIT K+GKIVI+G+N++ED  L R  YSL  GDY+G+  F FIIN  NMKM P +Y+++LWAK  + A KFEG  A+YV+A+E  S+H+F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|YP_009211478.1|</Hit_id>
+  <Hit_def>sliding clamp DNA polymerase accessory protein [Pectobacterium bacteriophage PM2] &gt;gb|AHY25019.1| sliding clamp DNA polymerase accessory protein [Pectobacterium bacteriophage PM2]</Hit_def>
+  <Hit_accession>YP_009211478</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>281.567</Hsp_bit-score>
+      <Hsp_score>719</Hsp_score>
+      <Hsp_evalue>7.59977e-93</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>171</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSED-GNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MKFSKDTIAVLKNFSTIYSGIMLKPGNTILTRSVTGASYGEAEINDTIDIEAAIYDLNGFLSILSLVSDSAEVSVSDDETTLVIKDQRSTIHWPVADPSTIVYPAKKIPFPVANVIFDLKGEDLQQLTRVARGMQIDALAIRSIDGKIVIDGHNSLEDKSMVRPLYSLVVGDYTETAQFKFIINMGNMKMIPAEYRVMLWAQDKKFAAKFEGSQSSYVLAMEEGSTHEF</Hsp_hseq>
+      <Hsp_midline>MK SKDT A+LKNF+TI SGIMLK G  I+TR+V G +Y EA I+D ID + AIYDLNGFL ILSLV+D AE+S S+D   + I D RSTI WP ADPST+V P K IPFPVA+ + ++K EDLQQL RV+RG+QID +AI   +GKIVI+G N +ED ++ R  YSL +GDY     F FIINM NMKM P  Y+++LWA+ K+ AAKFEG  ++YV+A+E  STH+F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>ref|YP_007235892.1|</Hit_id>
+  <Hit_def>sliding clamp DNA polymerase accessory protein,phage associated [Yersinia phage phiR1-RT] &gt;emb|CCI88633.1| sliding clamp DNA polymerase accessory protein,phage associated [Yersinia phage phiR1-RT]</Hit_def>
+  <Hit_accession>YP_007235892</Hit_accession>
+  <Hit_len>234</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>281.182</Hsp_bit-score>
+      <Hsp_score>718</Hsp_score>
+      <Hsp_evalue>1.20924e-92</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>134</Hsp_identity>
+      <Hsp_positive>181</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQ-SEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAK----GKQGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MKLSKETISILKNFSSINSGLMLKKGSFVMTRAVNGTSYADATISDEIDFDVAIYDLPAFLSVLSLVGENAEITHDSKMANIEIRNGRSTINWASADPSSIKFPPSAVKFPLAHVIFELPGEELKQLLRVSRGMGIDTLGITNNEGKIVINGYNKVSDSSCSKILYSLEAGEYDGEHQFNILINMSNLKIVDGDYKVMIWGKIKGTEKQAALRFEGSQVNYVIAVESDSTYDF</Hsp_hseq>
+      <Hsp_midline>MKLSK+T ++LKNF++INSG+MLK G F+MTRAVNGT+YA+A ISD IDFDVAIYDL  FL +LSLV ++AEI+  S+  NI+I + RSTI W +ADPS++  P   + FP+A  + E+  E+L+QLLRVSRG+ IDT+ IT  EGKIVING+NKV DS+ +++ YSL  G+YDGE+ FN +INM+N+K+  G+YK+++W K     KQ A +FEG   NYV+A+E+DST+DF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|YP_009200322.1|</Hit_id>
+  <Hit_def>sliding clamp DNA polymerase accessory protein [Yersinia phage vB_YenM_TG1] &gt;gb|AJD81869.1| sliding clamp DNA polymerase accessory protein [Yersinia phage vB_YenM_TG1]</Hit_def>
+  <Hit_accession>YP_009200322</Hit_accession>
+  <Hit_len>234</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>281.182</Hsp_bit-score>
+      <Hsp_score>718</Hsp_score>
+      <Hsp_evalue>1.42481e-92</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>134</Hsp_identity>
+      <Hsp_positive>181</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQ-SEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAK----GKQGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MKLSKETISILKNFSSINSGLMLKKGNFVMTRAVNGTSYADATISDEIDFDVAIYDLPAFLSVLSLVGENAEITHDSKMANIEIRNGRSTINWASADPSSIKFPPSAVKFPLAHVIFELPGEELKQLLRVSRGMGIDTLGITNNEGKIVINGYNKVSDSSCSKILYSLEAGEYDGEHQFNILINMSNLKIVDGDYKVMIWGKIKGTEKQAALRFEGSQVNYVIAVESDSTYDF</Hsp_hseq>
+      <Hsp_midline>MKLSK+T ++LKNF++INSG+MLK G F+MTRAVNGT+YA+A ISD IDFDVAIYDL  FL +LSLV ++AEI+  S+  NI+I + RSTI W +ADPS++  P   + FP+A  + E+  E+L+QLLRVSRG+ IDT+ IT  EGKIVING+NKV DS+ +++ YSL  G+YDGE+ FN +INM+N+K+  G+YK+++W K     KQ A +FEG   NYV+A+E+DST+DF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gb|QHS01693.1|</Hit_id>
+  <Hit_def>sliding clamp, DNA polymerase accessory protein [Enterobacter phage vB_EclM_CIP9]</Hit_def>
+  <Hit_accession>QHS01693</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>278.87</Hsp_bit-score>
+      <Hsp_score>712</Hsp_score>
+      <Hsp_evalue>7.97339e-92</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>174</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSED-GNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MKFSKDTISVLKNFSSIYSGIMLRPGNTILTRSVSGASYGEADINDEIDFEAAIYDLNGFLSILGLVSDSAEVSVSEDETNLVIRDQRSTIFWPVADPSTIVFPAKKIPFPVAKVIFDLKGEDLQQLLRASNGLKIDTLVIRAKDGKIVIDGHNQLEDKDLNRQLYSLVVGDHDGPD-FKFIINKTNLKMIPADYRVHLWAADKKFAAKFEGSQASYVIAMEDGSSHSF</Hsp_hseq>
+      <Hsp_midline>MK SKDT ++LKNF++I SGIML+ G  I+TR+V+G +Y EA+I+D IDF+ AIYDLNGFL IL LV+D AE+S SED  N+ I D RSTIFWP ADPST+V P K IPFPVA  + ++K EDLQQLLR S GL+IDT+ I  K+GKIVI+G N++ED  L R  YSL +GD+DG + F FIIN  N+KM P +Y++ LWA  K+ AAKFEG  A+YV+A+E  S+H F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gb|ARB05835.1|</Hit_id>
+  <Hit_def>hypothetical protein fHeYen901_62 [Yersinia phage fHe-Yen9-01]</Hit_def>
+  <Hit_accession>ARB05835</Hit_accession>
+  <Hit_len>234</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>279.256</Hsp_bit-score>
+      <Hsp_score>713</Hsp_score>
+      <Hsp_evalue>8.94681e-92</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>181</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQ-SEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAK----GKQGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MKLSKETISILKNFSSINSGLMLKKGNFVMTRAVNGTSYADATIADEIDFDVAIYDLPAFLSVLSLVGENAEITHDSKMANIEIRNGRSTINWASADPSSIKFPPSAVKFPLAHVIFELPGEELKQLLRVSRGMGIDTLGITNNEGKIVINGYNKVADSSCSKILYSLEAGEYDGEHQFNILINMSNLKIVDGDYKVMIWGKIKGTEKQAALRFEGTQVNYVIAVESDSTYDF</Hsp_hseq>
+      <Hsp_midline>MKLSK+T ++LKNF++INSG+MLK G F+MTRAVNGT+YA+A I+D IDFDVAIYDL  FL +LSLV ++AEI+  S+  NI+I + RSTI W +ADPS++  P   + FP+A  + E+  E+L+QLLRVSRG+ IDT+ IT  EGKIVING+NKV DS+ +++ YSL  G+YDGE+ FN +INM+N+K+  G+YK+++W K     KQ A +FEG   NYV+A+E+DST+DF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|YP_004009719.1|</Hit_id>
+  <Hit_def>gp45 sliding clamp [Acinetobacter phage Acj61] &gt;gb|ADG36067.1| gp45 sliding clamp [Acinetobacter phage Acj61]</Hit_def>
+  <Hit_accession>YP_004009719</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>278.485</Hsp_bit-score>
+      <Hsp_score>711</Hsp_score>
+      <Hsp_evalue>1.2215e-91</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>134</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MQLSKESLATLKNFATINGGIVLKPGQFVMTRSVNGATYAEATLSDEIDAEFGIYDLNAFLSILSLADENATISLNKEGDISIKGARSEITWPSADPSTIVAPKKQISFPTANVIFELNAEEYQQIMRVSRGLGADTLTIGSEDGKIVIKSFNKIADSKLEKPLYKFDATEYNDSNNFNFVINIANMKMQQDSYKVLLWATGEMFASKFEGTTASYVLAVEADSTHDF</Hsp_hseq>
+      <Hsp_midline>M+LSK++ A LKNFATIN GI+LK GQF+MTR+VNG TYAEA +SD ID +  IYDLN FL ILSL +++A IS +++G+I I  ARS I WP+ADPST+VAP K I FP A+ + E+ AE+ QQ++RVSRGL  DT+ I  ++GKIVI  FNK+ DS L +  Y     +Y+  N FNF+IN+ANMKMQ  +YK+LLWA G+  A+KFEG  A+YV+A+EADSTHDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>ref|YP_009205747.1|</Hit_id>
+  <Hit_def>sliding clamp [Escherichia phage vb_EcoM-VR5] &gt;gb|AIZ01840.1| sliding clamp [Escherichia phage vb_EcoM-VR5]</Hit_def>
+  <Hit_accession>YP_009205747</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>274.633</Hsp_bit-score>
+      <Hsp_score>701</Hsp_score>
+      <Hsp_evalue>5.69529e-90</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>171</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGN-IKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGK----QGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MKFSKDTLNILKNFSGINPGIMLKPGNTILTRSVTGASYGEATVSDTFDIEAAIYDLNGFLSILSLVSESAEVSVSEDQTTLIIKDQRSTIKWPIADPSTIAFPSKAIPFPVAEVIFDLKAEDYQQLMRVSSGLSIDTFAITVDDGKIVINGYKQVDDKELTRPLYSLVVADHDGPD-FKFIINKTNMKMMPADYHVLLWARGEGQDARFAAKFEGAQASYVLAMEAGSSHSF</Hsp_hseq>
+      <Hsp_midline>MK SKDT  +LKNF+ IN GIMLK G  I+TR+V G +Y EA +SD  D + AIYDLNGFL ILSLV++ AE+S SED   + I D RSTI WP ADPST+  P+K IPFPVA  + ++KAED QQL+RVS GL IDT AITV +GKIVING+ +V+D  LTR  YSL + D+DG + F FIIN  NMKM P +Y +LLWA+G+    + AAKFEG  A+YV+A+EA S+H F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|YP_001595180.1|</Hit_id>
+  <Hit_def>gp45 sliding clamp DNA polymerase accessory protein [Escherichia phage JS98] &gt;ref|YP_002922400.1| gp45 sliding clamp, DNA polymerase accessory protein [Escherichia phage JS10] &gt;gb|AWD91235.1| sliding clamp DNA polymerase accessory protein [Enterobacteria phage vB_EcoM_IME281] &gt;gb|QAY00081.1| sliding clamp DNA polymerase accessory protein [Escherichia phage EcWhh-1] &gt;gb|QBP35666.1| sliding clamp DNA polymerase accessory protein [Phage NC-G] &gt;gb|QHR70750.1| sliding clamp DNA polymerase accessory protein [Escherichia phage dhaeg] &gt;gb|QHR72458.1| sliding clamp DNA polymerase accessory protein [Escherichia phage dhabil]</Hit_def>
+  <Hit_accession>YP_001595180</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>273.092</Hsp_bit-score>
+      <Hsp_score>697</Hsp_score>
+      <Hsp_evalue>2.00263e-89</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>171</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGN-IKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGK----QGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MKFSKETLNILKNFSGINPGIMLKPGNTILTRSVTGASYGEATVSDTFDIEAAIYDLNGFLSILSLVSESAEVSVSEDQTTLIIKDQRSTIKWPIADPSTIAFPSKAIPFPVAEVIFDLKAEDYQQLMRVSSGLSIDTFAITVDDGKIVINGYKQVDDKELTRPLYSLVVADHDGPD-FKFIINKTNMKMMPADYHVLLWARGEGQDARFAAKFEGTQASYVLAMEAGSSHSF</Hsp_hseq>
+      <Hsp_midline>MK SK+T  +LKNF+ IN GIMLK G  I+TR+V G +Y EA +SD  D + AIYDLNGFL ILSLV++ AE+S SED   + I D RSTI WP ADPST+  P+K IPFPVA  + ++KAED QQL+RVS GL IDT AITV +GKIVING+ +V+D  LTR  YSL + D+DG + F FIIN  NMKM P +Y +LLWA+G+    + AAKFEG  A+YV+A+EA S+H F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|YP_003734201.1|</Hit_id>
+  <Hit_def>45 gene product [Enterobacteria phage IME08] &gt;gb|ADI55380.1| gp45 sliding clamp DNA polymerase accessory protein [Enterobacteria phage IME08]</Hit_def>
+  <Hit_accession>YP_003734201</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>271.937</Hsp_bit-score>
+      <Hsp_score>694</Hsp_score>
+      <Hsp_evalue>5.85165e-89</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>169</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGN-IKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGK----QGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MKFSKETLNILKNFSGINPGIMLKPGNTILTRSVTGASYGEATVNDTFDIEAAIYDLNGFLSILSLVSDSAEVSVSEDQTTLIIKDQRSTIKWPIADPSTIAFPSKAIPFPVAEVIFDLKAEDYQQLMRVSSGLSIDTFAITVDNGKIVINGYKQVDDKELTRPLYSLVVADHDGPE-FKFIINKTNMKMMPADYHVLLWARGEGQDARFAAKFEGSQASYVLAMEAGSSHSF</Hsp_hseq>
+      <Hsp_midline>MK SK+T  +LKNF+ IN GIMLK G  I+TR+V G +Y EA ++D  D + AIYDLNGFL ILSLV+D AE+S SED   + I D RSTI WP ADPST+  P+K IPFPVA  + ++KAED QQL+RVS GL IDT AITV  GKIVING+ +V+D  LTR  YSL + D+DG   F FIIN  NMKM P +Y +LLWA+G+    + AAKFEG  A+YV+A+EA S+H F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>51</Hit_num>
+  <Hit_id>gb|AUO78711.1|</Hit_id>
+  <Hit_def>sliding clamp DNA polymerase accessory protein [Klebsiella phage vB_Kpn_F48] &gt;gb|QEG12698.1| putative sliding clamp DNA polymerase accessory protein [Klebsiella phage vB_KpnM_Potts1] &gt;gb|QEM42254.1| sliding clamp protein [Klebsiella phage EI] &gt;gb|QGZ15244.1| hypothetical protein [Klebsiella phage vB_Kpn_P545] &gt;gb|QHB49397.1| sliding clamp holder [Klebsiella phage PhiKpNIH-6]</Hit_def>
+  <Hit_accession>AUO78711</Hit_accession>
+  <Hit_len>234</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>271.552</Hsp_bit-score>
+      <Hsp_score>693</Hsp_score>
+      <Hsp_evalue>8.49262e-89</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>168</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKG-----KQGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MKFSKETIAVLKNFATINSGIVLTPGNFVMTRSIIGTTYADTTIQDEIDNELAIYDLSGFLSVLSLVGDDAEVTLQDDGQIAIKSNRSAVYWAGADKSTIVVPKAKASFPVANVITELKAEDLQQLKRVASGLNLDTITISNKSGEIVMQAYNKTEDPELVKPKYALTLGEYDGTENFNFVINRDNLKMVPADYKLMLWGKNLADGKKQTAAKFESDNYTYITAMEIDSTFDF</Hsp_hseq>
+      <Hsp_midline>MK SK+T A+LKNFATINSGI+L  G F+MTR++ GTTYA+  I D ID ++AIYDL+GFL +LSLV DDAE++  +DG I I   RS ++W  AD ST+V P     FPVA+ +TE+KAEDLQQL RV+ GL +DTI I+ K G+IV+  +NK ED  L + KY+LTLG+YDG   FNF+IN  N+KM P +YKL+LW K      KQ AAKFE ++  Y+ A+E DST DF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>52</Hit_num>
+  <Hit_id>gb|QFR57026.1|</Hit_id>
+  <Hit_def>sliding clamp, DNA polymerase accessory protein [Klebsiella phage AmPh_EK29]</Hit_def>
+  <Hit_accession>QFR57026</Hit_accession>
+  <Hit_len>234</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>271.166</Hsp_bit-score>
+      <Hsp_score>692</Hsp_score>
+      <Hsp_evalue>1.31509e-88</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>168</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKG-----KQGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MKFSKETIAVLKNFATINSGIVLTPGNFVMTRSIIGTTYADTTIQDEIDNELAIYDLSGFLSVLSLVGDDAEVTLQDDGQIAIKSNRSAVYWAGADKSTIVVPKAKASFPVANVITELKAEDLQQLKRVASGLNLDTITISNKSGEIVMQAYNKTEDPELIKPKYALTLGEYDGTENFNFVINRDNLKMVPADYKLMLWGKNLADGKKQTAAKFESDNYTYITAMEIDSTFDF</Hsp_hseq>
+      <Hsp_midline>MK SK+T A+LKNFATINSGI+L  G F+MTR++ GTTYA+  I D ID ++AIYDL+GFL +LSLV DDAE++  +DG I I   RS ++W  AD ST+V P     FPVA+ +TE+KAEDLQQL RV+ GL +DTI I+ K G+IV+  +NK ED  L + KY+LTLG+YDG   FNF+IN  N+KM P +YKL+LW K      KQ AAKFE ++  Y+ A+E DST DF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>53</Hit_num>
+  <Hit_id>ref|YP_009323949.1|</Hit_id>
+  <Hit_def>sliding clamp DNA polymerase accessory protein [Escherichia phage MX01] &gt;gb|AND75997.1| sliding clamp DNA polymerase accessory protein [Escherichia phage MX01]</Hit_def>
+  <Hit_accession>YP_009323949</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>270.396</Hsp_bit-score>
+      <Hsp_score>690</Hsp_score>
+      <Hsp_evalue>1.96778e-88</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>168</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGN-IKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGK----QGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MKFSKETLNILKNFSGINPGIMLKPGNTILTRSVTGASYGEATVSDTFDIEAAIYDLNGFLSILSLVSESAEVSVSEDQTTLIIKDQRSTIKWPIADPSTIAFPSKKIPFPVAEVIFDLKAEDYQQLMRVSSGLSIDTFAITTDNGKIVINGYKQVDDKELTRPLYSLVVADHDGPE-FKFIINKTNMKMMPADYHVLLWARGEGQDARFAAKFEGSQASYVLAMEAGSSHSF</Hsp_hseq>
+      <Hsp_midline>MK SK+T  +LKNF+ IN GIMLK G  I+TR+V G +Y EA +SD  D + AIYDLNGFL ILSLV++ AE+S SED   + I D RSTI WP ADPST+  P+K IPFPVA  + ++KAED QQL+RVS GL IDT AIT   GKIVING+ +V+D  LTR  YSL + D+DG   F FIIN  NMKM P +Y +LLWA+G+    + AAKFEG  A+YV+A+EA S+H F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>54</Hit_num>
+  <Hit_id>gb|QAU03536.1|</Hit_id>
+  <Hit_def>sliding clamp DNA polymerase accessory protein [Escherichia phage AnYang]</Hit_def>
+  <Hit_accession>QAU03536</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>269.24</Hsp_bit-score>
+      <Hsp_score>687</Hsp_score>
+      <Hsp_evalue>5.49888e-88</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGN-IKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGK----QGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MKFSKETLNILKNFSGINPGIMLKPGNTILTRSVTGASYGEATVSDTFDIEAAIYDLNGFLSILSLVSDSAEVSVSEDQTTLIIKDQRSTIKWPIADPSTIAFPSKAIPFPVAEVIFDLKAEDYQQLMRVSSGLSIDTFAITTDNGKIVINGYKQVDDKDLARPLYSLVVADHDGPE-FKFIINKTNMKMMPADYHVLLWARGEGQDARFAAKFEGSQASYVLAMEAGSSHSF</Hsp_hseq>
+      <Hsp_midline>MK SK+T  +LKNF+ IN GIMLK G  I+TR+V G +Y EA +SD  D + AIYDLNGFL ILSLV+D AE+S SED   + I D RSTI WP ADPST+  P+K IPFPVA  + ++KAED QQL+RVS GL IDT AIT   GKIVING+ +V+D  L R  YSL + D+DG   F FIIN  NMKM P +Y +LLWA+G+    + AAKFEG  A+YV+A+EA S+H F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>55</Hit_num>
+  <Hit_id>ref|YP_007004122.1|</Hit_id>
+  <Hit_def>sliding clamp DNA polymerase accessory protein [Enterobacteria phage Bp7] &gt;gb|AEN93798.1| sliding clamp DNA polymerase accessory protein [Enterobacteria phage Bp7] &gt;gb|AWD92152.1| sliding clamp DNA polymerase accessory protein [Enterobacteria phage vB_EcoM_IME341] &gt;gb|AZV01060.1| sliding clamp DNA polymerase accessory protein [Escherichia phage vB_EcoM_005]</Hit_def>
+  <Hit_accession>YP_007004122</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>269.24</Hsp_bit-score>
+      <Hsp_score>687</Hsp_score>
+      <Hsp_evalue>6.2697e-88</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>168</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGN-IKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGK----QGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MKFSKETLNILKNFSGINPGIMLKPGNTILTRSVTGASYGEATVNDTFDIEAAIYDLNGFLSILSLVSDSAEVSVSEDQTTLIIKDQRSTIKWPIADPSTIAFPSKAIPFPVAEVIFDLKAEDYQQLMRVSSGLSIDTFAITVDNGKIVINGYKQVDDKDLARPLYSLVVADHDGPE-FKFIINKTNMKMMPADYHVLLWARGEGQDARFAAKFEGSQASYVLAMEAGSSHSF</Hsp_hseq>
+      <Hsp_midline>MK SK+T  +LKNF+ IN GIMLK G  I+TR+V G +Y EA ++D  D + AIYDLNGFL ILSLV+D AE+S SED   + I D RSTI WP ADPST+  P+K IPFPVA  + ++KAED QQL+RVS GL IDT AITV  GKIVING+ +V+D  L R  YSL + D+DG   F FIIN  NMKM P +Y +LLWA+G+    + AAKFEG  A+YV+A+EA S+H F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>56</Hit_num>
+  <Hit_id>gb|QDB71703.1|</Hit_id>
+  <Hit_def>sliding clamp [Klebsiella phage Marfa]</Hit_def>
+  <Hit_accession>QDB71703</Hit_accession>
+  <Hit_len>234</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>268.085</Hsp_bit-score>
+      <Hsp_score>684</Hsp_score>
+      <Hsp_evalue>2.2558e-87</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKG-----KQGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MKFSKETIAVLKNFATINSGIVLTPGNFVMTRSIIGTTYADATIQDEIDNELAIYDLSGFLSVLSLVGDDAEVTLQDDGQIAIKSNRSAVYWAGADKSTIVVPKAKASFPVANVITELKAEDLQQLKRVASGLNLDTITISNKSGEIVMQAYNKTEDPELIKPKYALTLGGYDGTENFNFVINRDNLKMVQADYKLMLWGKNLADGKKQTAAKFESDNYTYITAMEIDSTFDF</Hsp_hseq>
+      <Hsp_midline>MK SK+T A+LKNFATINSGI+L  G F+MTR++ GTTYA+A I D ID ++AIYDL+GFL +LSLV DDAE++  +DG I I   RS ++W  AD ST+V P     FPVA+ +TE+KAEDLQQL RV+ GL +DTI I+ K G+IV+  +NK ED  L + KY+LTLG YDG   FNF+IN  N+KM   +YKL+LW K      KQ AAKFE ++  Y+ A+E DST DF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>57</Hit_num>
+  <Hit_id>ref|YP_009202784.1|</Hit_id>
+  <Hit_def>sliding clamp DNA polymerase accessory protein [Escherichia phage QL01] &gt;ref|YP_009323253.1| sliding clamp DNA polymerase accessory protein [Escherichia phage WG01] &gt;gb|AKU42710.1| sliding clamp DNA polymerase accessory protein [Escherichia phage QL01] &gt;gb|AND75726.1| sliding clamp DNA polymerase accessory protein [Escherichia phage WG01]</Hit_def>
+  <Hit_accession>YP_009202784</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>267.7</Hsp_bit-score>
+      <Hsp_score>683</Hsp_score>
+      <Hsp_evalue>2.30254e-87</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>168</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGN-IKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGK----QGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MKFSKETLNILKNFSGINPGIMLKPGNTILTRSVTGASYGEATVNDTFDIEAAIYDLNGFLSILSLVSESAEVSVSEDQTTLIIKDQRSTIKWPIADPSTIAFPSKAIPFPVAEVIFDLKAEDYQQLMRVSSGLSIDTFAITVDNGKIVINGYKQVDDKDLARPLYSLVVADHDGPE-FKFIINKTNMKMMPADYHVLLWARGEGQDARFAAKFEGSQASYVLAMEAGSSHSF</Hsp_hseq>
+      <Hsp_midline>MK SK+T  +LKNF+ IN GIMLK G  I+TR+V G +Y EA ++D  D + AIYDLNGFL ILSLV++ AE+S SED   + I D RSTI WP ADPST+  P+K IPFPVA  + ++KAED QQL+RVS GL IDT AITV  GKIVING+ +V+D  L R  YSL + D+DG   F FIIN  NMKM P +Y +LLWA+G+    + AAKFEG  A+YV+A+EA S+H F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>58</Hit_num>
+  <Hit_id>gb|ASJ79428.1|</Hit_id>
+  <Hit_def>hypothetical protein SHP1_106 [Salmonella phage SHP1]</Hit_def>
+  <Hit_accession>ASJ79428</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>267.7</Hsp_bit-score>
+      <Hsp_score>683</Hsp_score>
+      <Hsp_evalue>2.45862e-87</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGN-IKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGK----QGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MKFSKETLNILKNFSGINPGIMLKPGNTILTRSVTGASYGEATVNDTFDIEAAIYDLNGFLSILSLVSDSAEVSVSEDQTTLIIKDQRSTIKWPIADPSTIAFPSKAIPFPVAEVIFDLKAEDYQQLMRVSSGLSIDTFAITTDNGKIVINGYKQVDDKDLARPLYSLVVADHDGPE-FKFIINKTNMKMMPADYHVLLWARGEGQDARFAAKFEGSQASYVLAMEAGSSHSF</Hsp_hseq>
+      <Hsp_midline>MK SK+T  +LKNF+ IN GIMLK G  I+TR+V G +Y EA ++D  D + AIYDLNGFL ILSLV+D AE+S SED   + I D RSTI WP ADPST+  P+K IPFPVA  + ++KAED QQL+RVS GL IDT AIT   GKIVING+ +V+D  L R  YSL + D+DG   F FIIN  NMKM P +Y +LLWA+G+    + AAKFEG  A+YV+A+EA S+H F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>59</Hit_num>
+  <Hit_id>ref|YP_006488852.1|</Hit_id>
+  <Hit_def>DNA polymerase accessory protein, sliding clamp [Acinetobacter phage ZZ1] &gt;gb|AFL47490.1| DNA polymerase accessory protein, sliding clamp [Acinetobacter phage ZZ1] &gt;gb|QAU03960.1| DNA polymerase accessory protein [Acinetobacter phage Henu6]</Hit_def>
+  <Hit_accession>YP_006488852</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>241.506</Hsp_bit-score>
+      <Hsp_score>615</Hsp_score>
+      <Hsp_evalue>5.41572e-77</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANIS--DVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MKFSKGLIATLKNFATINTGINLTAGTFIMTRAANGATYGEVNLQPEDTIDFDVAIYDLNAFLSILSLSGEDSEVS-VKGADIIIKGKRSEIIWPSCDPSAIVYPKKPIQFPPAEVEFELPAEEYNQVMKIARGLGADTVAITNKSGLVVINAFNKTIDPNLEKPLSTFEVSDYDGSRDFNFVINLTNLKLQSDTYKVQLWAKDHLFAARFEGTAANYVIAVEDESSHNF</Hsp_hseq>
+      <Hsp_midline>MK SK   A LKNFATIN+GI L +G FIMTRA NG TY E N+   D IDFDVAIYDLN FL ILSL  +D+E+S  +  +I I   RS I WP+ DPS +V P KPI FP A    E+ AE+  Q+++++RGL  DT+AIT K G +VIN FNK  D  L +   +  + DYDG   FNF+IN+ N+K+Q   YK+ LWAK    AA+FEG  ANYV+A+E +S+H+F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>60</Hit_num>
+  <Hit_id>gb|ASD52039.1|</Hit_id>
+  <Hit_def>sliding clamp [Pseudomonas phage PspYZU05]</Hit_def>
+  <Hit_accession>ASD52039</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>229.18</Hsp_bit-score>
+      <Hsp_score>583</Hsp_score>
+      <Hsp_evalue>3.24847e-72</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGL-QIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MKLSKETIEVLKTFSTINNGIMLNPGNFIMTRSVNGAVYAHAEVQDDIDLEVAIYDLNGFLSVVSLF-EDLEISMNSDGDMVLKDKATTIILSGADPSAIVYPKKAINIPSTCFSVELSGHVIQQLKRVARGLLNIDTVSIENKDGFIYLNGYNAKGDTQLSRVLYSAKLGEYDGANTFKFFINMDNLRIQNEDHILSVWASGQQQVAKFESKTMTHVVAMEDGSRHDF</Hsp_hseq>
+      <Hsp_midline>MKLSK+T  +LK F+TIN+GIML  G FIMTR+VNG  YA A + D ID +VAIYDLNGFL ++SL  +D EIS + DG++ + D  +TI    ADPS +V P K I  P      E+    +QQL RV+RGL  IDT++I  K+G I +NG+N   D+ L+RV YS  LG+YDG NTF F INM N+++Q  ++ L +WA G+Q  AKFE +   +VVA+E  S HDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>61</Hit_num>
+  <Hit_id>gb|AUM58580.1|</Hit_id>
+  <Hit_def>sliding clamp [Proteus phage phiP4-3] &gt;gb|AZV01180.1| sliding clamp [Shigella phage vB_SdyM_006]</Hit_def>
+  <Hit_accession>AUM58580</Hit_accession>
+  <Hit_len>226</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>227.639</Hsp_bit-score>
+      <Hsp_score>579</Hsp_score>
+      <Hsp_evalue>1.25752e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>226</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIK-IADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MKFSKDTLTVLKNFSSINPGIVLKPGNFIMTRAINKTIYADATIADEIDSEMPIYDLPGFLSILSLVGEDATITHNERERVAVIKNDRTEVFFATADLSTIVVPKNPIGFPVADVIFELKAEDLQQITKMTRAVGADTIAIESLDNKIVINGYNKAVDSSLEKVLFSIEVGEWESSETFKFVINMNNMKLLMADYKIMISSK---GAIKFETPTFKYVIVLEQESSHTF</Hsp_hseq>
+      <Hsp_midline>MK SKDT  +LKNF++IN GI+LK G FIMTRA+N T YA+A I+D ID ++ IYDL GFL ILSLV +DA I+ +E   +  I + R+ +F+  AD ST+V P  PI FPVA  + E+KAEDLQQ+ +++R +  DTIAI   + KIVING+NK  DS+L +V +S+ +G+++   TF F+INM NMK+   +YK+++ +K   GA KFE     YV+ LE +S+H F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>62</Hit_num>
+  <Hit_id>gb|ASZ76314.1|</Hit_id>
+  <Hit_def>sliding clamp DNA polymerase accessory protein [Proteus phage PM2]</Hit_def>
+  <Hit_accession>ASZ76314</Hit_accession>
+  <Hit_len>226</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>222.246</Hsp_bit-score>
+      <Hsp_score>565</Hsp_score>
+      <Hsp_evalue>1.59539e-69</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>226</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIK-IADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MKFSKDTLTILKNFSAINPGIVLKPGNFIMTRAINKTVYADATIADEIDSEMPIYDLPGFLNILALVGEDATITHNEQERVAVIKNDRTEVFFATADLSTIVVPKNPIGFPVADVIFELKAEDLQQITKMTRAVGADTIAIESLDNKIVINGYNKAVDANLEKVLFSIEVGEWESSETFKFVINMNNMKVLMADYKIMISSK---GAIKFETPTFKYVIVLEQESNHTF</Hsp_hseq>
+      <Hsp_midline>MK SKDT  +LKNF+ IN GI+LK G FIMTRA+N T YA+A I+D ID ++ IYDL GFL IL+LV +DA I+ +E   +  I + R+ +F+  AD ST+V P  PI FPVA  + E+KAEDLQQ+ +++R +  DTIAI   + KIVING+NK  D+ L +V +S+ +G+++   TF F+INM NMK+   +YK+++ +K   GA KFE     YV+ LE +S H F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>63</Hit_num>
+  <Hit_id>ref|YP_009195467.1|</Hit_id>
+  <Hit_def>sliding clamp [Proteus phage vB_PmiM_Pm5461] &gt;gb|AKA61911.1| sliding clamp [Proteus phage vB_PmiM_Pm5461]</Hit_def>
+  <Hit_accession>YP_009195467</Hit_accession>
+  <Hit_len>226</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>220.32</Hsp_bit-score>
+      <Hsp_score>560</Hsp_score>
+      <Hsp_evalue>1.16097e-68</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>226</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIK-IADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MKFSKDTLTILKNFSAINPGIVLKPGNFIMTRAINKTVYADATIADEIDSEMPIYDLPGFLNILALVGEDATITHNEQERVAVIKNDRTEVFFATADLSTIVVPKNPIGFPVADVIFELKAEDLQQITKMTRAVGADTIAIESLDNKIVINGYNKAVDANLEKVLFSIEVCEWESSETFKFVINMNNMKVLMADYKIMISSK---GAIKFETPTFKYVIVLEQESNHTF</Hsp_hseq>
+      <Hsp_midline>MK SKDT  +LKNF+ IN GI+LK G FIMTRA+N T YA+A I+D ID ++ IYDL GFL IL+LV +DA I+ +E   +  I + R+ +F+  AD ST+V P  PI FPVA  + E+KAEDLQQ+ +++R +  DTIAI   + KIVING+NK  D+ L +V +S+ + +++   TF F+INM NMK+   +YK+++ +K   GA KFE     YV+ LE +S H F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>64</Hit_num>
+  <Hit_id>gb|AZU98594.1|</Hit_id>
+  <Hit_def>DNA polymerase sliding clamp [Acinetobacter phage AbTZA1] &gt;gb|QHJ75841.1| DNA polymerase accessory protein, sliding clamp [Acinetobacter phage vB_AbaM_PhT2] &gt;emb|SSU39259.1| gp45 sliding clamp, C terminal [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>AZU98594</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>215.698</Hsp_bit-score>
+      <Hsp_score>548</Hsp_score>
+      <Hsp_evalue>8.59e-67</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANI--SDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGN-IKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MKFSKQFVSILKNFATINSGIYFKAGDFVMTRSASGATYAETVLPPGEEIEFNVAIFDLNAFLSILSLSGEDSEITSS--GNEITIKGKRSVITWPAAELDSIVYPKNAIKFPPASVEFELNGEDFKQLMKISHGLGANTLSIGNENGKIVIAAYNKELDPNFSKALSTFEVADYTGDKEFKFIIHLENMKILPADYTVKLWAVGEQYAAKFVGEQASYVISLEDGSTHNF</Hsp_hseq>
+      <Hsp_midline>MK SK   ++LKNFATINSGI  K+G F+MTR+ +G TYAE  +   + I+F+VAI+DLN FL ILSL  +D+EI+ S  GN I I   RS I WPAA+  ++V P   I FP AS   E+  ED +QL+++S GL  +T++I  + GKIVI  +NK  D   ++   +  + DY G+  F FII++ NMK+ P +Y + LWA G+Q AAKF GE A+YV++LE  STH+F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>65</Hit_num>
+  <Hit_id>ref|YP_009279896.1|</Hit_id>
+  <Hit_def>sliding clamp [Morganella phage vB_MmoM_MP1] &gt;gb|ANM46458.1| sliding clamp [Morganella phage vB_MmoM_MP1]</Hit_def>
+  <Hit_accession>YP_009279896</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>210.69</Hsp_bit-score>
+      <Hsp_score>535</Hsp_score>
+      <Hsp_evalue>6.71995e-65</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQ-SEDGNIKIADARSTIFWPAADPSTVVAPNKPI---PFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MKFSKDTLAILKNFSSINPGIVLKEGSFIMTRSMGKNIYAESTIDDVIDSDMGIYDLNGFLSVLSLVGDEPEVDHDASTSTITIKNGKTRVFYRSADETTIVQPKKRINAQSFDDSLVSFNLTAEDLQQIQRVSRAMAIDTIAITNKNNKIVINGYNQGADENLANVLYSLEVGDWEGTDDFNFLINMQSMKLLTADYKVDL----TKPAVKFTAEKFFYVIALEAKSTSTF</Hsp_hseq>
+      <Hsp_midline>MK SKDT A+LKNF++IN GI+LK G FIMTR++    YAE+ I DVID D+ IYDLNGFL +LSLV D+ E+   +    I I + ++ +F+ +AD +T+V P K I    F  +     + AEDLQQ+ RVSR + IDTIAIT K  KIVING+N+  D  L  V YSL +GD++G + FNF+INM +MK+   +YK+ L     + A KF  E   YV+ALEA ST  F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>66</Hit_num>
+  <Hit_id>gb|QHJ74034.1|</Hit_id>
+  <Hit_def>sliding clamp DNA polymerase accessory protein [Acinetobacter phage vB_AbaP_Lazarus]</Hit_def>
+  <Hit_accession>QHJ74034</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>208.379</Hsp_bit-score>
+      <Hsp_score>529</Hsp_score>
+      <Hsp_evalue>5.86635e-64</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANI--SDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MKFSKQFVSILKNFATINSGIYFQAGDFVMTRSASGATYGETTLPPGEEIEFNVAIYDLNAFLGILSLSGEDSEITSNSD-EILIKGKRSVITWPAADPSAIVYPKKAIKFPEASVEFDLSGDDYKQLMKISHGLGATTLTIENANGKVVFKTYNKEIDPNFEKPLSTFDVADYTGDKEFKFILHIQNMKLLPDDYRVKLWAVGEKFAVKFAGTQSSYVLSVEDGSTHNF</Hsp_hseq>
+      <Hsp_midline>MK SK   ++LKNFATINSGI  ++G F+MTR+ +G TY E  +   + I+F+VAIYDLN FLGILSL  +D+EI+ + D  I I   RS I WPAADPS +V P K I FP AS   ++  +D +QL+++S GL   T+ I    GK+V   +NK  D    +   +  + DY G+  F FI+++ NMK+ P +Y++ LWA G++ A KF G  ++YV+++E  STH+F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>67</Hit_num>
+  <Hit_id>gb|AXY82802.1|</Hit_id>
+  <Hit_def>DNA polymerase accessory protein, sliding clamp [Acinetobacter phage KARL-1]</Hit_def>
+  <Hit_accession>AXY82802</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>208.379</Hsp_bit-score>
+      <Hsp_score>529</Hsp_score>
+      <Hsp_evalue>6.40045e-64</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANI--SDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MKFSKQFVSILKNFATINSGIYFQAGDFVMTRSASGATYGETTLPPGEEIEFNVAIYDLNAFLGILSLSGEDSEITSNGD-EILIKGKRSVITWPAADPSAIVYPKKAIKFPEASVEFDLSGDDYKQLMKISHGLGATTLTIENANGKVVFKTYNKEIDPNFEKPLSTFDVADYTGDKEFKFILHIQNMKLLPDDYKVKLWAVGEKFAVKFAGTQSSYVLSVEDGSTHNF</Hsp_hseq>
+      <Hsp_midline>MK SK   ++LKNFATINSGI  ++G F+MTR+ +G TY E  +   + I+F+VAIYDLN FLGILSL  +D+EI+ + D  I I   RS I WPAADPS +V P K I FP AS   ++  +D +QL+++S GL   T+ I    GK+V   +NK  D    +   +  + DY G+  F FI+++ NMK+ P +YK+ LWA G++ A KF G  ++YV+++E  STH+F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>68</Hit_num>
+  <Hit_id>gb|QGZ15686.1|</Hit_id>
+  <Hit_def>sliding clamp DNA polymerase accessory protein [Acinetobacter phage vB_AbaP_Apostate]</Hit_def>
+  <Hit_accession>QGZ15686</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>207.994</Hsp_bit-score>
+      <Hsp_score>528</Hsp_score>
+      <Hsp_evalue>7.70238e-64</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANI--SDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MKFSKQFVSILKNFATINSGIYFQAGDFVMTRSASGATYGETTLPPGEEIEFNVAIYDLNAFLGILSLSGEDSEITSTGD-EILIKGKRSVITWPAADPSAIVYPKKAIKFPEASVEFDLSGDDYKQLMKISHGLGATTLTIENANGKVVFKTYNKEIDPNFEKPLSTFDVADYTGDKEFKFILHIQNMKLLPDDYRVKLWAVGEKFAVKFAGTQSSYVLSVEDGSTHNF</Hsp_hseq>
+      <Hsp_midline>MK SK   ++LKNFATINSGI  ++G F+MTR+ +G TY E  +   + I+F+VAIYDLN FLGILSL  +D+EI+ + D  I I   RS I WPAADPS +V P K I FP AS   ++  +D +QL+++S GL   T+ I    GK+V   +NK  D    +   +  + DY G+  F FI+++ NMK+ P +Y++ LWA G++ A KF G  ++YV+++E  STH+F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>69</Hit_num>
+  <Hit_id>gb|AWY10334.1|</Hit_id>
+  <Hit_def>sliding clamp DNA polymerase accessory protein [Acinetobacter phage AM101] &gt;gb|AXF40669.1| sliding clamp DNA polymerase accessory protein [Acinetobacter phage vB_ApiM_fHyAci03] &gt;gb|QGT53861.1| sliding clamp DNA polymerase accessory protein [Acinetobacter phage vB_AbaP_Konradin] &gt;gb|QGT54110.1| sliding clamp DNA polymerase accessory protein [Acinetobacter phage vB_AbaP_Stupor] &gt;gb|QGZ15441.1| sliding clamp DNA polymerase accessory protein [Acinetobacter phage vB_AbaP_Berthold] &gt;gb|QHB48255.1| sliding clamp DNA polymerase accessory protein gp45 [Acinetobacter phage vB_AbaP_Kimel]</Hit_def>
+  <Hit_accession>AWY10334</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>207.223</Hsp_bit-score>
+      <Hsp_score>526</Hsp_score>
+      <Hsp_evalue>1.4021e-63</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANI--SDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MKFSKQFVSILKNFATINSGIYFQAGDFVMTRSASGATYGETTLPPGEEIEFNVAIYDLNAFLGILSLSGEDSEITSNGD-EILIKGKRSVITWPAADPSAIVYPKKAIKFPEASVEFDLSGDDYKQLMKISHGLGATTLTIENANGKVVFKTYNKEIDPNFEKPLSTFDVADYTGDKEFKFILHIQNMKLLPDDYRVKLWAVGEKFAVKFAGTQSSYVLSVEDGSTHNF</Hsp_hseq>
+      <Hsp_midline>MK SK   ++LKNFATINSGI  ++G F+MTR+ +G TY E  +   + I+F+VAIYDLN FLGILSL  +D+EI+ + D  I I   RS I WPAADPS +V P K I FP AS   ++  +D +QL+++S GL   T+ I    GK+V   +NK  D    +   +  + DY G+  F FI+++ NMK+ P +Y++ LWA G++ A KF G  ++YV+++E  STH+F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>70</Hit_num>
+  <Hit_id>ref|YP_004009462.1|</Hit_id>
+  <Hit_def>gp45 sliding clamp [Acinetobacter phage Ac42] &gt;gb|ADI96338.1| gp45 sliding clamp [Acinetobacter phage Ac42]</Hit_def>
+  <Hit_accession>YP_004009462</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>203.371</Hsp_bit-score>
+      <Hsp_score>516</Hsp_score>
+      <Hsp_evalue>5.20984e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGN-IKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MRLSKETQAILKNFSTINSSIKLTPGKFIMTCNLGRTIHASAQIEDEIDIDAGIFDLPGFLTLLGLVDENAEISLTEDGSKFAIKGPRSVVYWPSADPAGLTYPKNTINFPAPTVEFMLKSDTWNQLTRVSRALGVDVIAFNNRDGEVHVDGFNKQADSAFVRPLLSLNLGDAGTTTDFNFILNMANLKLLVDDYKVKIFAKGASMASCFEGSTV-HVIAVEKSSTHGF</Hsp_hseq>
+      <Hsp_midline>M+LSK+T A+LKNF+TINS I L  G+FIMT  +  T +A A I D ID D  I+DL GFL +L LV+++AEIS +EDG+   I   RS ++WP+ADP+ +  P   I FP  +    +K++   QL RVSR L +D IA   ++G++ ++GFNK  DSA  R   SL LGD      FNFI+NMAN+K+   +YK+ ++AKG   A+ FEG    +V+A+E  STH F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>71</Hit_num>
+  <Hit_id>ref|YP_009030103.1|</Hit_id>
+  <Hit_def>sliding clamp, DNA polymerase accessory protein [Serratia phage PS2] &gt;gb|AHY25304.1| sliding clamp, DNA polymerase accessory protein [Serratia phage PS2]</Hit_def>
+  <Hit_accession>YP_009030103</Hit_accession>
+  <Hit_len>223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>201.83</Hsp_bit-score>
+      <Hsp_score>512</Hsp_score>
+      <Hsp_evalue>1.68306e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDG-NIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MKLSKETLAILKIFSGINSSIVLKPGSFIMTKTVNNVVFAEANIDDVIDEELAIYELSSFLNLVSLVGDDAELTL--DGEDIVISAGKTRVFYRAANASTIVTPKNRLTMPVANVIFELSADQMQQILRTSRAQNGDVLSIASDDNKIVIRGFNRAIDKDCLRPLFSVETADWDGPD-FDFRLNMANMHMKEADFKILISSK---GAVKFESDKISYVVATEATSTHSF</Hsp_hseq>
+      <Hsp_midline>MKLSK+T A+LK F+ INS I+LK G FIMT+ VN   +AEANI DVID ++AIY+L+ FL ++SLV DDAE++   DG +I I+  ++ +F+ AA+ ST+V P   +  PVA+ + E+ A+ +QQ+LR SR    D ++I   + KIVI GFN+  D    R  +S+   D+DG + F+F +NMANM M+  ++K+L+ +K   GA KFE +  +YVVA EA STH F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>72</Hit_num>
+  <Hit_id>gb|QFR56008.1|</Hit_id>
+  <Hit_def>sliding clamp [Serratia phage Muldoon]</Hit_def>
+  <Hit_accession>QFR56008</Hit_accession>
+  <Hit_len>223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>195.282</Hsp_bit-score>
+      <Hsp_score>495</Hsp_score>
+      <Hsp_evalue>6.14193e-59</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDG-NIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MKLSKETLAILKIFSGINSSIVLKPGSFIMTKTVNNVVFAEATIDDVIDEELAIYELSSFLNLVSLVGEDAELTL--DGEDIVISAGKTRVFYRAANASTIVTPKNRLTMPVANVIFELSADQMQQILRTSRAQNGDVLSIASEDNKIVIRGYNRTIDKDCLRPLFAVETADWDGPD-FDFRLNMANMHMKEADFKVMISSK---GAVKFEGDKISYVVATEATSKHSF</Hsp_hseq>
+      <Hsp_midline>MKLSK+T A+LK F+ INS I+LK G FIMT+ VN   +AEA I DVID ++AIY+L+ FL ++SLV +DAE++   DG +I I+  ++ +F+ AA+ ST+V P   +  PVA+ + E+ A+ +QQ+LR SR    D ++I  ++ KIVI G+N+  D    R  +++   D+DG + F+F +NMANM M+  ++K+++ +K   GA KFEG+  +YVVA EA S H F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>73</Hit_num>
+  <Hit_id>ref|YP_004010245.1|</Hit_id>
+  <Hit_def>gp45 sliding clamp [Acinetobacter phage Acj9] &gt;gb|ADG60008.1| gp45 sliding clamp [Acinetobacter phage Acj9]</Hit_def>
+  <Hit_accession>YP_004010245</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.815</Hsp_bit-score>
+      <Hsp_score>486</Hsp_score>
+      <Hsp_evalue>1.83053e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANIS--DVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MKFSKNLVAVLKTFATINPGVYLRPGDVINTRTQTGSIYAEVQLEPEEAVDIDVAIYDLNAFLQIVSLAGDDADVTLARDGNIVIKGPQTTINWPATEPDSITFPKKSINLPPHQVEFELPVDTYNQVMKISRSLGAEKLAISNVEDKIVVNAFAK-SDTEFERPLCSFKVTEYTGDKDFEFIIDMRNLRVMPEDFNVKLWAQGEMFATSFEGKTARYIISVEDSSTHNF</Hsp_hseq>
+      <Hsp_midline>MK SK+  A+LK FATIN G+ L+ G  I TR   G+ YAE  +   + +D DVAIYDLN FL I+SL  DDA+++ + DGNI I   ++TI WPA +P ++  P K I  P      E+  +   Q++++SR L  + +AI+  E KIV+N F K  D+   R   S  + +Y G+  F FII+M N+++ P ++ + LWA+G+  A  FEG+ A Y++++E  STH+F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>74</Hit_num>
+  <Hit_id>gb|QBX32726.1|</Hit_id>
+  <Hit_def>sliding clamp [Aeromonas phage Asfd_1]</Hit_def>
+  <Hit_accession>QBX32726</Hit_accession>
+  <Hit_len>223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>183.726</Hsp_bit-score>
+      <Hsp_score>465</Hsp_score>
+      <Hsp_evalue>2.49756e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MKLSKETLSIMKNFAAINPSLRLVPGHFIMTKSVNGVAYAEATIADEIDAELNIYDLPNFLSILSQLGDGAEIALV-GGDIVIQNGRAKVNLPDAEAKAIIVPKQRLNMPPADVEFDLKAEDLAETLKISRAVGANRIAITNRESQLVIDAFSS-DDGDNPRTRYSLVLGDYEGTNNFSFVINLENMSVVLSDYHVNISSR---GAAQFQGINSAYVFVLETSSKHDF</Hsp_hseq>
+      <Hsp_midline>MKLSK+T +++KNFA IN  + L  G FIMT++VNG  YAEA I+D ID ++ IYDL  FL ILS + D AEI+    G+I I + R+ +  P A+   ++ P + +  P A    ++KAEDL + L++SR +  + IAIT +E ++VI+ F+  +D    R +YSL LGDY+G N F+F+IN+ NM +   +Y + + ++   GAA+F+G ++ YV  LE  S HDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>75</Hit_num>
+  <Hit_id>ref|YP_003969255.1|</Hit_id>
+  <Hit_def>unnamed protein product [Aeromonas phage phiAS4] &gt;ref|YP_009217489.1| sliding clamp DNA polymerase accessory protein [Stenotrophomonas phage IME13] &gt;gb|ADM79809.1| sliding clamp protein [Aeromonas phage phiAS4] &gt;gb|AFQ22569.1| sliding clamp DNA polymerase accessory protein [Stenotrophomonas phage IME13]</Hit_def>
+  <Hit_accession>YP_003969255</Hit_accession>
+  <Hit_len>223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>182.956</Hsp_bit-score>
+      <Hsp_score>463</Hsp_score>
+      <Hsp_evalue>4.7417e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MKLTKETLSVMKNFAAINPSLRLTPGNFIMTKSVNGVAYAEATIADEIDSELNIYDLPNFLSILGQLGEGSEINLS-NGEIVIQNGRAKVNLPDAESSVIVVPKQRLRMPPADVEFDLKAEDLAEILKISRAVGADRIAITNRNDHIVIDAF-AVEDGDNARTRYSLTVCPYEGTNNFSFVINLENVSVVVADYKINISSK---GAAQFQGINTAYVFVLETSSKHDF</Hsp_hseq>
+      <Hsp_midline>MKL+K+T +++KNFA IN  + L  G FIMT++VNG  YAEA I+D ID ++ IYDL  FL IL  + + +EI+ S +G I I + R+ +  P A+ S +V P + +  P A    ++KAEDL ++L++SR +  D IAIT +   IVI+ F  VED    R +YSLT+  Y+G N F+F+IN+ N+ +   +YK+ + +K   GAA+F+G +  YV  LE  S HDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>76</Hit_num>
+  <Hit_id>ref|YP_007677758.1|</Hit_id>
+  <Hit_def>sliding clamp protein [Aeromonas phage Aes012] &gt;gb|AFN69671.1| sliding clamp protein [Aeromonas phage Aes012] &gt;gb|AFN69992.1| sliding clamp protein [Aeromonas phage Aes516]</Hit_def>
+  <Hit_accession>YP_007677758</Hit_accession>
+  <Hit_len>223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>182.57</Hsp_bit-score>
+      <Hsp_score>462</Hsp_score>
+      <Hsp_evalue>6.28954e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MKLTKETLSVMKNFAAINPSLRLTPGNFIMTKSVNGVAYAEATIADEIDSELNIYDLPNFLSILGQLGEGSEINLS-NGEIVIQNGRAKVNLPDAESSVIVVPKQRLRMPPADVEFDLKAEDLAEILKISRAVGADRIAITNRNDHIVIDAF-AVEDGDNARTRYSLTVCPYEGTNNFSFVINLENVSVVIADYKINISSK---GAAQFQGINTAYVFVLETSSKHDF</Hsp_hseq>
+      <Hsp_midline>MKL+K+T +++KNFA IN  + L  G FIMT++VNG  YAEA I+D ID ++ IYDL  FL IL  + + +EI+ S +G I I + R+ +  P A+ S +V P + +  P A    ++KAEDL ++L++SR +  D IAIT +   IVI+ F  VED    R +YSLT+  Y+G N F+F+IN+ N+ +   +YK+ + +K   GAA+F+G +  YV  LE  S HDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>77</Hit_num>
+  <Hit_id>ref|YP_656276.1|</Hit_id>
+  <Hit_def>gp45 sliding clamp protein [Aeromonas virus 25] &gt;gb|AAP68682.1| sliding clamp [Aeromonas virus 25] &gt;gb|ABF72600.1| gp45 sliding clamp protein [Aeromonas virus 25]</Hit_def>
+  <Hit_accession>YP_656276</Hit_accession>
+  <Hit_len>223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.415</Hsp_bit-score>
+      <Hsp_score>459</Hsp_score>
+      <Hsp_evalue>1.86395e-53</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MKLTKETLSVMKNFAAINPSLRLTPGNFIMTKSVNGVAYAEATIADEIDSELNIYDLPNFLSILGQLGEGSDINLS-NGEIVIQNGRAKVNLPDAESSVIVVPKQRLRMPPADVEFDLKAEDLTEILKISRAVGADRIAITNRNDHIVIDAF-AVEDGDNARTRYSLTVCPYEGTNNFSFVINLENVSVVVADYKINISSK---GAAQFQGINTAYVFVLETSSKHDF</Hsp_hseq>
+      <Hsp_midline>MKL+K+T +++KNFA IN  + L  G FIMT++VNG  YAEA I+D ID ++ IYDL  FL IL  + + ++I+ S +G I I + R+ +  P A+ S +V P + +  P A    ++KAEDL ++L++SR +  D IAIT +   IVI+ F  VED    R +YSLT+  Y+G N F+F+IN+ N+ +   +YK+ + +K   GAA+F+G +  YV  LE  S HDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>78</Hit_num>
+  <Hit_id>ref|YP_007010731.1|</Hit_id>
+  <Hit_def>sliding clamp protein [Aeromonas phage Aes508] &gt;ref|YP_009613134.1| sliding clamp protein [Aeromonas phage AS-gz] &gt;gb|AFQ97124.1| sliding clamp protein [Aeromonas phage Aes508] &gt;gb|ASU00683.1| sliding clamp protein [Aeromonas phage AS-gz] &gt;gb|AWH14820.1| sliding clamp protein [Aeromonas phage 50AhydR13PP]</Hit_def>
+  <Hit_accession>YP_007010731</Hit_accession>
+  <Hit_len>223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.03</Hsp_bit-score>
+      <Hsp_score>458</Hsp_score>
+      <Hsp_evalue>2.10054e-53</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MKLTKETLSVMKNFAAINPSLRLTPGNFIMTKSVNGVAYAEATIADEIDSELNIYDLPNFLSILGQLGEGSDINLS-NGEIVIQNGRAKVNLPDAESSVIVVPKQRLRMPPADVEFDLKAEDLAEILKISRAVGADRIAITNRNDHIVIDAF-AVEDGDNARTRYSLTVCPYEGTNNFSFVINLENVSVVVADYKINISSK---GAAQFQGINTAYVFVLETSSKHDF</Hsp_hseq>
+      <Hsp_midline>MKL+K+T +++KNFA IN  + L  G FIMT++VNG  YAEA I+D ID ++ IYDL  FL IL  + + ++I+ S +G I I + R+ +  P A+ S +V P + +  P A    ++KAEDL ++L++SR +  D IAIT +   IVI+ F  VED    R +YSLT+  Y+G N F+F+IN+ N+ +   +YK+ + +K   GAA+F+G +  YV  LE  S HDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>79</Hit_num>
+  <Hit_id>gb|AWH15642.1|</Hit_id>
+  <Hit_def>sliding clamp protein [Aeromonas phage 60AhydR15PP]</Hit_def>
+  <Hit_accession>AWH15642</Hit_accession>
+  <Hit_len>223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.03</Hsp_bit-score>
+      <Hsp_score>458</Hsp_score>
+      <Hsp_evalue>2.87833e-53</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MKLTKETLSVMKNFAAINPSLRLTPGNFIMTKSVNGVAYAEATIADEIDSELNIYDLPNFLSILGQLGEGSDINLS-NGEIVIQNGRAKVNLPDAESSVIVVPKQRLRMPPADVEFDLKAEDLAEILKISRAVGADRIAITNRNDHIVIDAF-AVEDGDNARTRYSLTVCPYEGTNNFSFVINLENVSVVIADYKINISSK---GAAQFQGINTAYVFVLETSSKHDF</Hsp_hseq>
+      <Hsp_midline>MKL+K+T +++KNFA IN  + L  G FIMT++VNG  YAEA I+D ID ++ IYDL  FL IL  + + ++I+ S +G I I + R+ +  P A+ S +V P + +  P A    ++KAEDL ++L++SR +  D IAIT +   IVI+ F  VED    R +YSLT+  Y+G N F+F+IN+ N+ +   +YK+ + +K   GAA+F+G +  YV  LE  S HDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>80</Hit_num>
+  <Hit_id>ref|NP_932395.1|</Hit_id>
+  <Hit_def>sliding clamp [Aeromonas virus 44RR2] &gt;ref|YP_238768.1| DNA polymerase accessory protein [Aeromonas virus 31] &gt;gb|APU00513.1| sliding clamp DNA polymerase accessory protein [Aeromonas phage 44RR2.8t.2] &gt;gb|APU00934.1| sliding clamp DNA polymerase accessory protein [Aeromonas phage 31.2] &gt;gb|APU01844.1| sliding clamp DNA polymerase accessory protein [Aeromonas phage L9-6] &gt;gb|APU02095.1| sliding clamp DNA polymerase accessory protein [Aeromonas phage Riv-10] &gt;gb|APU02342.1| sliding clamp DNA polymerase accessory protein [Aeromonas phage SW69-9]</Hit_def>
+  <Hit_accession>NP_932395</Hit_accession>
+  <Hit_len>223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>173.711</Hsp_bit-score>
+      <Hsp_score>439</Hsp_score>
+      <Hsp_evalue>1.6146e-50</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MKLSKETLSIMKNFAAINPSLRLVPGDFIMTKSINGVAYAEATIADEIDSELNIYDLPNFLSILGQLGDGSEITLS-NGDIVIHNGRAKVNLPDAEGNAIIVPKQRLRMPPPDVEFDLKAEDLAEILKISRAVGADRMAITNRDDHIVVDTFSEA-DGDNPRTRYSVQLCAYEGTNNFSFVINLDNVSVVIADYKINISSK---GAAQFQGINSSYVFVLETSSKHDF</Hsp_hseq>
+      <Hsp_midline>MKLSK+T +++KNFA IN  + L  G FIMT+++NG  YAEA I+D ID ++ IYDL  FL IL  + D +EI+ S +G+I I + R+ +  P A+ + ++ P + +  P      ++KAEDL ++L++SR +  D +AIT ++  IV++ F++  D    R +YS+ L  Y+G N F+F+IN+ N+ +   +YK+ + +K   GAA+F+G +++YV  LE  S HDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>81</Hit_num>
+  <Hit_id>ref|YP_006986319.1|</Hit_id>
+  <Hit_def>sliding clamp DNA polymerase [Cronobacter phage vB_CsaM_GAP161] &gt;ref|YP_009194862.1| sliding clamp protein [Citrobacter phage Margaery] &gt;gb|AOG16171.1| sliding clamp DNA polymerase [Cronobacter phage vB_CsaM_leB] &gt;gb|AOG16450.1| sliding clamp DNA polymerase [Cronobacter phage vB_CsaM_leN] &gt;gb|AON97053.1| sliding clamp DNA polymerase [Cronobacter phage vB_CsaM_leE] &gt;gb|AYJ72907.1| sliding clamp [Citrobacter phage Maroon] &gt;gb|AFC22150.1| sliding clamp DNA polymerase [Cronobacter phage vB_CsaM_GAP161]</Hit_def>
+  <Hit_accession>YP_006986319</Hit_accession>
+  <Hit_len>221</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>173.326</Hsp_bit-score>
+      <Hsp_score>438</Hsp_score>
+      <Hsp_evalue>2.64458e-50</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>226</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQS-EDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHA-NYVVALEADS</Hsp_qseq>
+      <Hsp_hseq>MKFSKQTIDILKNFSQINPSVMLKKGSFIMTKSINSVVYAEATISDVIDEDVGIYDLNSFLNMLNVVGTDAEVTHDLSTGEIVIRGEKMKIVERSSDPTTIVQPKKRLEMPVADLIFQISANDFEKLIKASRMMKLTDLSVEPINGKLVITAKSKESQST-----FSVEVGDYEGDNMFNFDMKIDNMQFINSDYKVEISSR---GAAKFSSENGVAYVVVLEATS</Hsp_hseq>
+      <Hsp_midline>MK SK T  +LKNF+ IN  +MLK G FIMT+++N   YAEA ISDVID DV IYDLN FL +L++V  DAE++     G I I   +  I   ++DP+T+V P K +  PVA  + +I A D ++L++ SR +++  +++    GK+VI   +K   S      +S+ +GDY+G+N FNF + + NM+    +YK+ + ++   GAAKF  E+   YVV LEA S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>82</Hit_num>
+  <Hit_id>ref|YP_003858342.1|</Hit_id>
+  <Hit_def>gp45 sliding clamp DNA polymerase [Escherichia virus RB16] &gt;gb|ADJ55346.1| gp45 sliding clamp DNA polymerase [Escherichia phage RB16]</Hit_def>
+  <Hit_accession>YP_003858342</Hit_accession>
+  <Hit_len>221</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>170.629</Hsp_bit-score>
+      <Hsp_score>431</Hsp_score>
+      <Hsp_evalue>2.72534e-49</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>226</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQS-EDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHA-NYVVALEADS</Hsp_qseq>
+      <Hsp_hseq>MKFSKQTIDILKNFSQINPSIMLTKGSFIMTKTINSVVYAEAEIPDVIDEDVGIYDLNSFLSMLNIVGADAEVTHDLSTGEIIIRGDKMKIVDRSCDPTTIVKPKKRLQMPVADLVFQISASDFEKLIKASRMMKLTDLSVEPINGKLVITAKSKESQST-----FSVEVGDYEGDNVFNFDMKIDNMQFINSDYKVEISA---QGAAKFSSENGVAYVVVLEATS</Hsp_hseq>
+      <Hsp_midline>MK SK T  +LKNF+ IN  IML  G FIMT+ +N   YAEA I DVID DV IYDLN FL +L++V  DAE++     G I I   +  I   + DP+T+V P K +  PVA  V +I A D ++L++ SR +++  +++    GK+VI   +K   S      +S+ +GDY+G+N FNF + + NM+    +YK+ + A   QGAAKF  E+   YVV LEA S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>83</Hit_num>
+  <Hit_id>ref|YP_008060568.1|</Hit_id>
+  <Hit_def>sliding clamp DNA polymerase [Escherichia phage Lw1] &gt;gb|AGJ71453.1| sliding clamp DNA polymerase [Escherichia phage Lw1]</Hit_def>
+  <Hit_accession>YP_008060568</Hit_accession>
+  <Hit_len>221</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>169.859</Hsp_bit-score>
+      <Hsp_score>429</Hsp_score>
+      <Hsp_evalue>4.79048e-49</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>226</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQS-EDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHA-NYVVALEADS</Hsp_qseq>
+      <Hsp_hseq>MKFSKQTIDILKNFSQINPSIMLTKGSFIMTKTINSVVYAEAEIPDVIDEDVGIYDLNSFLNMLNVVGSDADVTHDLSTGEIVIRGEKMKIVERSCDPTTIVKPKKRLQMPVADLIFQISANDFEKLIKASRMMKLTDLSVEPINGKLVITAKSKESQST-----FSVEVGDYEGDNVFNFDMKIDNMQFINSDYKVEISA---QGAAKFSSENGVAYVVVLEATS</Hsp_hseq>
+      <Hsp_midline>MK SK T  +LKNF+ IN  IML  G FIMT+ +N   YAEA I DVID DV IYDLN FL +L++V  DA+++     G I I   +  I   + DP+T+V P K +  PVA  + +I A D ++L++ SR +++  +++    GK+VI   +K   S      +S+ +GDY+G+N FNF + + NM+    +YK+ + A   QGAAKF  E+   YVV LEA S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>84</Hit_num>
+  <Hit_id>ref|YP_003579915.1|</Hit_id>
+  <Hit_def>sliding clamp DNA polymerase [Klebsiella phage KP15] &gt;ref|YP_007348682.1| sliding clamp protein [Klebsiella phage KP27] &gt;ref|YP_009194288.1| sliding clamp protein [Klebsiella phage Matisse] &gt;ref|YP_009606959.1| sliding clamp DNA polymerase [Enterobacter phage phiEap-3] &gt;ref|YP_009607240.1| sliding clamp DNA polymerase accessory protein [Klebsiella phage Miro] &gt;ref|YP_009626280.1| Sliding clamp DNA polymerase accessory protein, phage associated [Klebsiella phage PMBT1] &gt;gb|ANN86308.1| sliding clamp DNA polymerase accessory protein [Escherichia phage phT4A] &gt;gb|QEG10275.1| sliding clamp DNA polymerase [Klebsiella phage KOX8] &gt;gb|QEG10545.1| sliding clamp DNA polymerase [Klebsiella phage KOX10] &gt;gb|QIW86150.1| sliding clamp DNA polymerase [Klebsiella phage P-KP2] &gt;gb|ADE34871.1| sliding clamp DNA polymerase [Klebsiella phage KP15]</Hit_def>
+  <Hit_accession>YP_003579915</Hit_accession>
+  <Hit_len>221</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>167.548</Hsp_bit-score>
+      <Hsp_score>423</Hsp_score>
+      <Hsp_evalue>4.72153e-48</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQS-EDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEH-ANYVVALEADST</Hsp_qseq>
+      <Hsp_hseq>MKFSKQTIDILKNFSQINSSIMLTKGSFIMTKSINSVVYAEAEIADVIDEDVGIYDLNSFLNMLNIVGTDAEITHDISTGEIVIRGDKMKIIERSADATTIPKPKKRLVMPVADLIFQITANDFEKLIKASRMMKLTDLSVEPIDGKLVITAKSKESQST-----FSVEVGEYEGDNVFNFDMKIDNMQFINSDYKVEISSK---GAAKFSSDNGVAYVVVLEASST</Hsp_hseq>
+      <Hsp_midline>MK SK T  +LKNF+ INS IML  G FIMT+++N   YAEA I+DVID DV IYDLN FL +L++V  DAEI+     G I I   +  I   +AD +T+  P K +  PVA  + +I A D ++L++ SR +++  +++   +GK+VI   +K   S      +S+ +G+Y+G+N FNF + + NM+    +YK+ + +K   GAAKF  ++   YVV LEA ST</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>85</Hit_num>
+  <Hit_id>ref|YP_009097646.1|</Hit_id>
+  <Hit_def>sliding clamp [Citrobacter phage Miller] &gt;ref|YP_009218689.1| sliding clamp DNA polymerase accessory protein [Citrobacter phage IME-CF2] &gt;ref|YP_009285581.1| sliding clamp protein [Citrobacter phage vB_CfrM_CfP1] &gt;emb|CCK73892.1| protein of unknown function [Escherichia virus RB43] &gt;gb|AIK67980.1| sliding clamp [Citrobacter phage Miller] &gt;gb|AKR15997.1| sliding clamp DNA polymerase accessory protein [Citrobacter phage IME-CF2] &gt;gb|ANS05997.1| sliding clamp protein [Citrobacter phage vB_CfrM_CfP1] &gt;emb|CCL97509.1| protein of unknown function [Escherichia virus RB43]</Hit_def>
+  <Hit_accession>YP_009097646</Hit_accession>
+  <Hit_len>221</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>167.162</Hsp_bit-score>
+      <Hsp_score>422</Hsp_score>
+      <Hsp_evalue>5.86476e-48</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>226</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQS-EDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHA-NYVVALEADS</Hsp_qseq>
+      <Hsp_hseq>MKFSKQTIDILKNFSQINPSIMLTKGSFIMTKSINSVVYAEAEIPDVIDEDVGIYDLNSFLNMMNVVGTDADVKHDLSTGEIVIRGEKMKIVERSCDPTTIVKPKKRLQMPVADLIFQISANDFEKLIKASRMMKLTDLSVEPINGKLVITAKSKESQST-----FSVEVGEYEGDNVFNFDMKIDNMQFINSDYKVEISA---QGAAKFSSENGVAYVVVLEATS</Hsp_hseq>
+      <Hsp_midline>MK SK T  +LKNF+ IN  IML  G FIMT+++N   YAEA I DVID DV IYDLN FL ++++V  DA++      G I I   +  I   + DP+T+V P K +  PVA  + +I A D ++L++ SR +++  +++    GK+VI   +K   S      +S+ +G+Y+G+N FNF + + NM+    +YK+ + A   QGAAKF  E+   YVV LEA S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>86</Hit_num>
+  <Hit_id>gb|AAQ63953.1|</Hit_id>
+  <Hit_def>gp45 sliding clamp [Aeromonas virus 44RR2]</Hit_def>
+  <Hit_accession>AAQ63953</Hit_accession>
+  <Hit_len>223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>164.081</Hsp_bit-score>
+      <Hsp_score>414</Hsp_score>
+      <Hsp_evalue>1.19888e-46</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHDF</Hsp_qseq>
+      <Hsp_hseq>MKLSKETLSIMKNFAAINPSLRLVPGDFIMTKSINGVAYAEATIADEIDSELNIYDLPNFLSILGQLGDGSEITLS-NGDIVIHNGRAKVNLPDAEGNAIIVPKQRLRMPPPDVEFDLKAEDLAEILKISRAVGADRMAITNRDDHIVVDTFSEA-DGDNPRTRYSVHCALMKVPNNFSFVINLDNVSVVIADYKINISSK---GAAQFQGINSSYVFVLETSSKHDF</Hsp_hseq>
+      <Hsp_midline>MKLSK+T +++KNFA IN  + L  G FIMT+++NG  YAEA I+D ID ++ IYDL  FL IL  + D +EI+ S +G+I I + R+ +  P A+ + ++ P + +  P      ++KAEDL ++L++SR +  D +AIT ++  IV++ F++  D    R +YS+        N F+F+IN+ N+ +   +YK+ + +K   GAA+F+G +++YV  LE  S HDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>87</Hit_num>
+  <Hit_id>gb|QDH49144.1|</Hit_id>
+  <Hit_def>sliding clamp [Panteoa phage Phynn]</Hit_def>
+  <Hit_accession>QDH49144</Hit_accession>
+  <Hit_len>222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.54</Hsp_bit-score>
+      <Hsp_score>410</Hsp_score>
+      <Hsp_evalue>3.51476e-46</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQS-EDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHA--NYVVALEADST</Hsp_qseq>
+      <Hsp_hseq>MKLSKATIDILKNFSQINPSIMLNKGSFIMTKSINSVIYAEAEIPDVIDEDIGIYDLNSFLNQVNLVGADADIVHNVQSGEIVIKADRVKIVERSADASTIVKPKKRIQMPVADLIFQISSQNFEKLIKAARTMRLTDISVEAVDGKLIITAKNKEAANS-----FAIEVGEYDGTNVFNFDMKIDNLLFLNSDYKVEISSK---GAAKFTSESSGVSYVVVLESTSS</Hsp_hseq>
+      <Hsp_midline>MKLSK T  +LKNF+ IN  IML  G FIMT+++N   YAEA I DVID D+ IYDLN FL  ++LV  DA+I  + + G I I   R  I   +AD ST+V P K I  PVA  + +I +++ ++L++ +R +++  I++   +GK++I   NK   ++     +++ +G+YDG N FNF + + N+     +YK+ + +K   GAAKF  E +  +YVV LE+ S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>88</Hit_num>
+  <Hit_id>gb|QFR55911.1|</Hit_id>
+  <Hit_def>sliding clamp DNA polymerase [Yersinia phage JC221]</Hit_def>
+  <Hit_accession>QFR55911</Hit_accession>
+  <Hit_len>221</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>160.999</Hsp_bit-score>
+      <Hsp_score>406</Hsp_score>
+      <Hsp_evalue>1.45702e-45</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>226</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQS-EDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHA-NYVVALEADS</Hsp_qseq>
+      <Hsp_hseq>MKFSKQTIDILKNFSQINSSIMLTKGSFIMTKSLNSVVYAEAQIPDVIDEDVGIYDLNSFLNMLNIVGVESDIQHDISTGEIIIRGDKTKIVERSADPTTIAKPKKRLEMPVADLVFQITSNDFEKLIKASRMMKLTNLSVSPINGKLVMTANSK--ESAST---FSVEVGEYEGDNVFNFDMKVDNLLFINSDYKVEISSK---GAAKFSSENGVSYVVVLESTS</Hsp_hseq>
+      <Hsp_midline>MK SK T  +LKNF+ INS IML  G FIMT+++N   YAEA I DVID DV IYDLN FL +L++V  +++I      G I I   ++ I   +ADP+T+  P K +  PVA  V +I + D ++L++ SR +++  ++++   GK+V+   +K  +SA T   +S+ +G+Y+G+N FNF + + N+     +YK+ + +K   GAAKF  E+  +YVV LE+ S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>89</Hit_num>
+  <Hit_id>ref|YP_239019.1|</Hit_id>
+  <Hit_def>gp45 sliding clamp DNA polymerase [Escherichia virus RB43] &gt;gb|AAX78565.1| gp45 sliding clamp DNA polymerase [Escherichia virus RB43]</Hit_def>
+  <Hit_accession>YP_239019</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.214</Hsp_bit-score>
+      <Hsp_score>378</Hsp_score>
+      <Hsp_evalue>1.95944e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQS-EDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLL</Hsp_qseq>
+      <Hsp_hseq>MKFSKQTIDILKNFSQINPSIMLTKGSFIMTKSINSVVYAEAEIPDVIDEDVGIYDLNSFLNMMNVVGTDADVKHDLSTGEIVIRGEKMKIVERSCDPTTIVKPKKRLQMPVADLIFQISANDFEKLIKASRMMKLTDLSVEPINGKLVITAKSKESQST-----FSVEVGEYEGDNVFNFDMKIDNMQFINSDYKVDL</Hsp_hseq>
+      <Hsp_midline>MK SK T  +LKNF+ IN  IML  G FIMT+++N   YAEA I DVID DV IYDLN FL ++++V  DA++      G I I   +  I   + DP+T+V P K +  PVA  + +I A D ++L++ SR +++  +++    GK+VI   +K   S      +S+ +G+Y+G+N FNF + + NM+    +YK+ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>90</Hit_num>
+  <Hit_id>gb|QEG05344.1|</Hit_id>
+  <Hit_def>sliding clamp DNA polymerase accessory protein [Shigella phage JK32]</Hit_def>
+  <Hit_accession>QEG05344</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.132</Hsp_bit-score>
+      <Hsp_score>370</Hsp_score>
+      <Hsp_evalue>5.35742e-40</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>226</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>226</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEIS-QSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQP---GNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTH</Hsp_qseq>
+      <Hsp_hseq>MKLTKETIATLKNFSAINPGIILKKGNVLITKNMTNVVYGEATLNQELEHEIGIYDLNSFLGILNLVGDEADITVDDRTGNIRVSNDRLKINYPGASAAAIVSPKGRVTPPASDVDYELSNDDLKQLMKMSNQLKVDRLEFLPIDGRLMIKGWEEIDKNNPNEM-FCLDMGEYAGTADFHFFIRKDNMKLVATDFGDYKL---SFTRRKAVWLAGETVSYMIACDLDSSY</Hsp_hseq>
+      <Hsp_midline>MKL+K+T A LKNF+ IN GI+LK G  ++T+ +    Y EA ++  ++ ++ IYDLN FLGIL+LV D+A+I+     GNI++++ R  I +P A  + +V+P   +  P +    E+  +DL+QL+++S  L++D +     +G+++I G+ +++ +    + + L +G+Y G   F+F I   NMK+     G+YKL   +  ++ A    GE  +Y++A + DS++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>91</Hit_num>
+  <Hit_id>gb|QBQ74214.1|</Hit_id>
+  <Hit_def>sliding clamp DNA polymerase accessory protein [Escherichia phage vB_EcoM_PHB13]</Hit_def>
+  <Hit_accession>QBQ74214</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>146.747</Hsp_bit-score>
+      <Hsp_score>369</Hsp_score>
+      <Hsp_evalue>7.81506e-40</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>226</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>226</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEIS-QSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQP---GNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTH</Hsp_qseq>
+      <Hsp_hseq>MKLTKETVAILKNFSAINPGIILKKGNVLITKNMTNVVYGEATLNQELEHEIGIYDLNSFLGILNLVGDEADITVDNRTGNIRVSNDRLKINYPGASAAAIVSPKGRVTPPASDVDYELSNDDLKQLMKMSNQLKVDRLEFLPIDGRLMIKGWEEIDKNNPNEM-FCLDMGEYTGTADFHFFIRKDNMKLVATDFGDYKL---SFTRRKAVWLASETVSYMIACDLDSSY</Hsp_hseq>
+      <Hsp_midline>MKL+K+T A+LKNF+ IN GI+LK G  ++T+ +    Y EA ++  ++ ++ IYDLN FLGIL+LV D+A+I+  +  GNI++++ R  I +P A  + +V+P   +  P +    E+  +DL+QL+++S  L++D +     +G+++I G+ +++ +    + + L +G+Y G   F+F I   NMK+     G+YKL   +  ++ A     E  +Y++A + DS++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>92</Hit_num>
+  <Hit_id>ref|NP_891601.1|</Hit_id>
+  <Hit_def>Gp45 [Escherichia phage RB49] &gt;ref|YP_002922104.1| Gp45 [Escherichia phage JSE] &gt;gb|QGS83636.1| sliding clamp [Escherichia virus Ec_Makalu_002] &gt;gb|QHB48630.1| hypothetical protein [Escherichia phage E26] &gt;gb|QHJ73252.1| sliding clamp DNA polymerase accessory protein [Escherichia virus Ec_Makalu_001] &gt;gb|AAL87832.2| Gp45 [Escherichia phage RB49] &gt;gb|ACL77981.1| Gp45 [Escherichia phage JSE]</Hit_def>
+  <Hit_accession>NP_891601</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.206</Hsp_bit-score>
+      <Hsp_score>365</Hsp_score>
+      <Hsp_evalue>2.88191e-39</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>226</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>226</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEIS-QSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQP---GNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTH</Hsp_qseq>
+      <Hsp_hseq>MKLTKETIATLKNFSAINPGIILKKGNVLITKNMTNVVYGEATLNQELEHEIGIYDLNSFLGILNLVGDEADITVDNRTGNIRVSNDRLKINYPGASAAAIVSPKGRVTPPASDVDYELSNDDLKQLMKMSNQLKVDRLEFLPIDGRLMIKGWEEIDKNNPNEM-FCLDMGEYTGTADFHFFIRKDNMKLVATDFGDYKL---SFTRRKAVWLASETVSYMIACDLDSSY</Hsp_hseq>
+      <Hsp_midline>MKL+K+T A LKNF+ IN GI+LK G  ++T+ +    Y EA ++  ++ ++ IYDLN FLGIL+LV D+A+I+  +  GNI++++ R  I +P A  + +V+P   +  P +    E+  +DL+QL+++S  L++D +     +G+++I G+ +++ +    + + L +G+Y G   F+F I   NMK+     G+YKL   +  ++ A     E  +Y++A + DS++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>93</Hit_num>
+  <Hit_id>gb|AXF53337.1|</Hit_id>
+  <Hit_def>DNA polymerase processivity component [Escherichia virus KFS-EC]</Hit_def>
+  <Hit_accession>AXF53337</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.821</Hsp_bit-score>
+      <Hsp_score>364</Hsp_score>
+      <Hsp_evalue>3.85579e-39</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>226</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>226</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEIS-QSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQP---GNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTH</Hsp_qseq>
+      <Hsp_hseq>MKLTKETIATLKNFSAINPGIILKKGNVLITKNMTNVVYGEATLNQELEHEIGIYDLNSFLGILNLVGDEADITVDNRTGNIRVSNDRLKINYPGASSAAIVSPKGRVTPPASDVDYELSNDDLKQLMKMSNQLKVDRLEFLPIDGRLMIKGWEEIDKNNPNEM-FCLDMGEYAGTADFHFFIRKDNMKLVATDFGDYKL---SFTRRKAVWLASETVSYMIACDLDSSY</Hsp_hseq>
+      <Hsp_midline>MKL+K+T A LKNF+ IN GI+LK G  ++T+ +    Y EA ++  ++ ++ IYDLN FLGIL+LV D+A+I+  +  GNI++++ R  I +P A  + +V+P   +  P +    E+  +DL+QL+++S  L++D +     +G+++I G+ +++ +    + + L +G+Y G   F+F I   NMK+     G+YKL   +  ++ A     E  +Y++A + DS++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>94</Hit_num>
+  <Hit_id>ref|YP_001469374.1|</Hit_id>
+  <Hit_def>gp45 sliding clamp DNA polymerase accessory protein [Escherichia phage Phi1] &gt;ref|YP_009118714.1| Putative DNA sliding clamp polymerase [Enterobacteria phage GEC-3S] &gt;ref|YP_009601998.1| sliding clamp DNA polymerase accessory protein [Escherichia phage ECD7] &gt;gb|AUV63992.1| sliding clamp [Shigella phage Sf20] &gt;gb|QBO62187.1| putative sliding clamp [Escherichia phage vB_EcoM_G2248] &gt;gb|QBO62996.1| putative sliding clamp [Escherichia phage vB_EcoM_G2494] &gt;gb|QBO66275.1| putative sliding clamp [Escherichia phage vB_EcoM_G5211] &gt;gb|QHR66177.1| sliding clamp DNA polymerase accessory protein [Escherichia phage kaaroe]</Hit_def>
+  <Hit_accession>YP_001469374</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.821</Hsp_bit-score>
+      <Hsp_score>364</Hsp_score>
+      <Hsp_evalue>3.89759e-39</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>226</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>226</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEIS-QSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQP---GNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTH</Hsp_qseq>
+      <Hsp_hseq>MKLTKETIATLKNFSAINPGIILKKGNVLITKNMTNVVYGEATLNQELEHEIGIYDLNSFLGILNLVGDEADITVDDRTGNIRVSNDRLKINYPGASAAAIVSPKGRVTPPASDVDYELSNDDLKQLMKMSNQLKVDRLEFLPIDGRLMIKGWEEIDKNNPNEM-FCLDMGEYTGTADFHFFIRKDNMKLVATDFGDYKL---SFTRRKAVWLASETVSYMIACDLDSSY</Hsp_hseq>
+      <Hsp_midline>MKL+K+T A LKNF+ IN GI+LK G  ++T+ +    Y EA ++  ++ ++ IYDLN FLGIL+LV D+A+I+     GNI++++ R  I +P A  + +V+P   +  P +    E+  +DL+QL+++S  L++D +     +G+++I G+ +++ +    + + L +G+Y G   F+F I   NMK+     G+YKL   +  ++ A     E  +Y++A + DS++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>95</Hit_num>
+  <Hit_id>gb|QHR71652.1|</Hit_id>
+  <Hit_def>sliding clamp DNA polymerase accessory protein [Escherichia phage kvi]</Hit_def>
+  <Hit_accession>QHR71652</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.05</Hsp_bit-score>
+      <Hsp_score>362</Hsp_score>
+      <Hsp_evalue>7.52315e-39</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>226</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>226</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEIS-QSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQP---GNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTH</Hsp_qseq>
+      <Hsp_hseq>MKLTKETIATMKNFSAINPGIILKKGNVLITKNMTNVVYGEATLNQELEHEIGIYDLNSFLGILNLVGDEADITVDDRTGNIRVSNDRLKINYPGASAAAIVSPKGRVTPPASDVDYELSNDDLKQLMKMSNQLKVDRLEFLPIDGRLMIKGWEEIDKNNPNEM-FCLDMGEYTGTADFHFFIRKDNMKLVATDFGDYKL---SFTRRKAVWLASETVSYMIACDLDSSY</Hsp_hseq>
+      <Hsp_midline>MKL+K+T A +KNF+ IN GI+LK G  ++T+ +    Y EA ++  ++ ++ IYDLN FLGIL+LV D+A+I+     GNI++++ R  I +P A  + +V+P   +  P +    E+  +DL+QL+++S  L++D +     +G+++I G+ +++ +    + + L +G+Y G   F+F I   NMK+     G+YKL   +  ++ A     E  +Y++A + DS++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>96</Hit_num>
+  <Hit_id>gb|QBO64629.1|</Hit_id>
+  <Hit_def>putative sliding clamp [Escherichia phage vB_EcoM_G37-3]</Hit_def>
+  <Hit_accession>QBO64629</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.05</Hsp_bit-score>
+      <Hsp_score>362</Hsp_score>
+      <Hsp_evalue>8.28958e-39</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>226</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>226</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEIS-QSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQP---GNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTH</Hsp_qseq>
+      <Hsp_hseq>MKLTKETIATLKNFSAINPGIILKKGNVLITKNMTNVVYGEATLNQELEHEIGIYDLNSFLGILNLVGDEADITVDDRTGNIRVSNDRLKINYPGASAAAIVSPKGRVTPPASDVDYELSNDDLKQLMKMSNQLKVDRLEFLPIDGRLMIKGWEEIDKNNPNEM-FCLDMGEYTGIADFHFFIRKDNMKLVATDFGDYKL---SFTRRKAVWLASETVSYMIACDLDSSY</Hsp_hseq>
+      <Hsp_midline>MKL+K+T A LKNF+ IN GI+LK G  ++T+ +    Y EA ++  ++ ++ IYDLN FLGIL+LV D+A+I+     GNI++++ R  I +P A  + +V+P   +  P +    E+  +DL+QL+++S  L++D +     +G+++I G+ +++ +    + + L +G+Y G   F+F I   NMK+     G+YKL   +  ++ A     E  +Y++A + DS++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>97</Hit_num>
+  <Hit_id>gb|QHJ72979.1|</Hit_id>
+  <Hit_def>sliding clmap holder [Escherichia virus Ec_Makalu_003]</Hit_def>
+  <Hit_accession>QHJ72979</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>143.665</Hsp_bit-score>
+      <Hsp_score>361</Hsp_score>
+      <Hsp_evalue>1.09709e-38</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>226</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>226</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEIS-QSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQP---GNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTH</Hsp_qseq>
+      <Hsp_hseq>MKLTKETISTLKNFSAINPGIILKKGNVLITKNMTNVVYGEATLNQELEHEIGIYDLNSFLGILNLVGDEADITVDDRTGNIRVSNDRLKINYPGASAAAIVSPKGRVTPPASDVDYELSNDDLKQLMKMSNQLKVDRLEFLPIDGRLMIKGWEEIDKNNPNEM-FCLDMGEYTGTADFHFFIRKDNMKLVATDFGDYKL---SFTRRKAVWLASETVSYMIACDLDSSY</Hsp_hseq>
+      <Hsp_midline>MKL+K+T + LKNF+ IN GI+LK G  ++T+ +    Y EA ++  ++ ++ IYDLN FLGIL+LV D+A+I+     GNI++++ R  I +P A  + +V+P   +  P +    E+  +DL+QL+++S  L++D +     +G+++I G+ +++ +    + + L +G+Y G   F+F I   NMK+     G+YKL   +  ++ A     E  +Y++A + DS++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>98</Hit_num>
+  <Hit_id>gb|EEB88694.1|</Hit_id>
+  <Hit_def>hypothetical protein MPER_13323, partial [Moniliophthora perniciosa FA553]</Hit_def>
+  <Hit_accession>EEB88694</Hit_accession>
+  <Hit_len>136</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>138.272</Hsp_bit-score>
+      <Hsp_score>347</Hsp_score>
+      <Hsp_evalue>8.18716e-38</Hsp_evalue>
+      <Hsp_query-from>90</Hsp_query-from>
+      <Hsp_query-to>226</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>134</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>IFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTH</Hsp_qseq>
+      <Hsp_hseq>IYYTAADASTISSPSKQIQFPVADVIFNIDSDDFTKLTRAARTLSIDTLAITADDGKILINGYNKVTDADLVNVLYSFECADYDGTAEFNFLVNMANMKMLSDDYKVMISSK---GAIKFEGKTSTYIGVLETGSKY</Hsp_hseq>
+      <Hsp_midline>I++ AAD ST+ +P+K I FPVA  +  I ++D  +L R +R L IDT+AIT  +GKI+ING+NKV D+ L  V YS    DYDG   FNF++NMANMKM   +YK+++ +K   GA KFEG+ + Y+  LE  S +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>99</Hit_num>
+  <Hit_id>gb|QBO62750.1|</Hit_id>
+  <Hit_def>putative sliding clamp [Escherichia phage vB_EcoM_G2469]</Hit_def>
+  <Hit_accession>QBO62750</Hit_accession>
+  <Hit_len>73</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.553</Hsp_bit-score>
+      <Hsp_score>301</Hsp_score>
+      <Hsp_evalue>1.45269e-31</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>73</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>73</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEI</Hsp_qseq>
+      <Hsp_hseq>MKLSKDTIAILKNFASINSGILLSQGKFIMTRAVNGTTYAEANISDEIDFDVALYDLNSFLSILSLVSDDSTL</Hsp_hseq>
+      <Hsp_midline>MKLSKDT A+LKNFA+INSGI+L  G+FIMTRAVNGTTYAEANISD IDFDVA+YDLN FL ILSLV+DD+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>100</Hit_num>
+  <Hit_id>ref|YP_003969437.1|</Hit_id>
+  <Hit_def>unnamed protein product [Aeromonas phage phiAS5] &gt;gb|ADM79991.1| sliding clamp [Aeromonas phage phiAS5]</Hit_def>
+  <Hit_accession>YP_003969437</Hit_accession>
+  <Hit_len>224</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>123.635</Hsp_bit-score>
+      <Hsp_score>309</Hsp_score>
+      <Hsp_evalue>6.81664e-31</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>226</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKI----ADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGD-YDGENT-FNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTH</Hsp_qseq>
+      <Hsp_hseq>MQLSKETVEILSNFAKINPSVVLKPGTFINTKSVNNVLYAESTIKDQIDSELRIYSLGEFLGVAMMVGLPAQVT--EDGEYIVVKNASGGRAMAKIKMAEAGTITHPKKAITFPTASVVFELTEDQIKQIGKSASTMSLVDLHF-VNDGRKILARLTGGETNSNT---FEIAIADDYEGADANFDFIVSIGNLKMIDGKYKVMI---AKEGAIRFEGT-SNYVIALDAKSKY</Hsp_hseq>
+      <Hsp_midline>M+LSK+T  +L NFA IN  ++LK G FI T++VN   YAE+ I D ID ++ IY L  FLG+  +V   A+++  EDG   +    +  R+      A+  T+  P K I FP AS V E+  + ++Q+ + +  + +  +   V +G+ ++      E ++ T   + + + D Y+G +  F+FI+++ N+KM  G YK+++    K+GA +FEG  +NYV+AL+A S +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>101</Hit_num>
+  <Hit_id>gb|QHJ78889.1|</Hit_id>
+  <Hit_def>hypothetical protein [Myoviridae sp.]</Hit_def>
+  <Hit_accession>QHJ78889</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.553</Hsp_bit-score>
+      <Hsp_score>301</Hsp_score>
+      <Hsp_evalue>9.82817e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQS-EDGNIKIA-DARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVS--RGLQIDTIAITVKEGKIVINGFNKVEDSALTRV-KYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADS</Hsp_qseq>
+      <Hsp_hseq>MKLSEKTMFILKNFQKINKSLVLKQGDMLMTKSDDNVLYAEAKIEETIAEDFAIYDLQEFINYIDLIGADATIDPNMTDLKLKIVGESGKKGVMNLADPSVVVHPKQRIPMLTANVLFQLKAEQLDDIQKASSVSGHKILCFTVAERDGKKFIDA--QVLDPKDTSANSVSFPIQEYDGDASFQFYVNIENMKMIKSDYKIEI---AKQGIITLTNDSVRYVIALESNS</Hsp_hseq>
+      <Hsp_midline>MKLS+ T  +LKNF  IN  ++LK G  +MT++ +   YAEA I + I  D AIYDL  F+  + L+  DA I  +  D  +KI  ++        ADPS VV P + IP   A+ + ++KAE L  + + S   G +I    +  ++GK  I+   +V D   T     S  + +YDG+ +F F +N+ NMKM   +YK+ +    KQG      +   YV+ALE++S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>102</Hit_num>
+  <Hit_id>ref|YP_009196628.1|</Hit_id>
+  <Hit_def>putative sliding clamp DNA polymerase accessory protein [Cronobacter phage S13] &gt;gb|AIA65043.1| putative sliding clamp DNA polymerase accessory protein [Cronobacter phage S13]</Hit_def>
+  <Hit_accession>YP_009196628</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.242</Hsp_bit-score>
+      <Hsp_score>295</Hsp_score>
+      <Hsp_evalue>9.18827e-29</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSE-DGNIKI-ADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKV---EDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADST</Hsp_qseq>
+      <Hsp_hseq>MKLSEKTLLVLKNFQKINKGLVLVKGNLLMTKSDDNVLYAEATIDETISEDFAIYDLGEFINYLSLIGIDSKLEPNMVDLKLRIKGESGKKGVMNLADPSVVVHPKKRITTPVADVLFELKSEQFDDILNGASISGHKTLRFSVGDHQGTPHIFADVMDPKDSSANIVSFPIQV--YDGKDEFNFYVNIDNLKMLKSDYKVEVSQK---GAITFVNDSVKYVVALEATSS</Hsp_hseq>
+      <Hsp_midline>MKLS+ T  +LKNF  IN G++L  G  +MT++ +   YAEA I + I  D AIYDL  F+  LSL+  D+++  +  D  ++I  ++        ADPS VV P K I  PVA  + E+K+E    +L  +      T+  +V + +   + F  V   +DS+   V + + +  YDG++ FNF +N+ N+KM   +YK+ +  K   GA  F  +   YVVALEA S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>103</Hit_num>
+  <Hit_id>gb|NDH49087.1|</Hit_id>
+  <Hit_def>hypothetical protein [Proteobacteria bacterium]</Hit_def>
+  <Hit_accession>NDH49087</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.161</Hsp_bit-score>
+      <Hsp_score>287</Hsp_score>
+      <Hsp_evalue>8.58641e-28</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFWPAADPSTVVAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADST</Hsp_qseq>
+      <Hsp_hseq>MKLESKTIQVLKNFSTINPSMMFKPGTSLATVSPTKTVMAKAQIEEEIPSEFAIYDLSRFLGVISLFNEPALDVQ--DKFMTIKSGKQRVQYTFADPSVIVSPSKELTMPTVDIEVEVSQENLQSVQKALGVMGLPEIAITGKDDTIFLEA---IDSKNPTNDTYSIEIGKTD--KVFQMIIKSENLKIIPSNYVVSI---SSLGIAHFKGEYVEYWVATEAASS</Hsp_hseq>
+      <Hsp_midline>MKL   T  +LKNF+TIN  +M K G  + T +   T  A+A I + I  + AIYDL+ FLG++SL N+ A   Q  D  + I   +  + +  ADPS +V+P+K +  P      E+  E+LQ + +    + +  IAIT K+  I +     ++    T   YS+ +G  D    F  II   N+K+ P NY + +      G A F+GE+  Y VA EA S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>104</Hit_num>
+  <Hit_id>gb|RPH07861.1|</Hit_id>
+  <Hit_def>DNA polymerase [Alphaproteobacteria bacterium TMED194]</Hit_def>
+  <Hit_accession>RPH07861</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>113.235</Hsp_bit-score>
+      <Hsp_score>282</Hsp_score>
+      <Hsp_evalue>6.15159e-27</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>227</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVND-DAEISQSEDGNIKIADARSTIFWPAADPSTV-VAPNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHANYVVALEADSTHD</Hsp_qseq>
+      <Hsp_hseq>MKFSNETMTVLKSFTTINKSILLKEGSVIKTITPEKTLIAIADITDVIPSDACVYDLSRFLSILSLYNDPDVEFF---DKYFIISEGKRRTKYVYADLSMIHTPPEKDITIPSADVVVNVSNGDLSSVLKAAGVLQFSEIAFVGESGKCYLKAIDSTNEGA---DDFGVEIGETDDE--FKIIIKTDNLKLMPLDYEVTLCSK---GISEFKGEGVTYYVAIDSKSTYN</Hsp_hseq>
+      <Hsp_midline>MK S +T  +LK+F TIN  I+LK G  I T     T  A A+I+DVI  D  +YDL+ FL ILSL ND D E     D    I++ +    +  AD S +   P K I  P A  V  +   DL  +L+ +  LQ   IA   + GK  +   +   + A     + + +G+ D E  F  II   N+K+ P +Y++ L +K   G ++F+GE   Y VA+++ ST++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>105</Hit_num>
+  <Hit_id>gb|NBU47954.1|</Hit_id>
+  <Hit_def>DNA polymerase [Flavobacteriales bacterium]</Hit_def>
+  <Hit_accession>NBU47954</Hit_accession>
+  <Hit_len>221</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.612</Hsp_bit-score>
+      <Hsp_score>270</Hsp_score>
+      <Hsp_evalue>3.23194e-25</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFWPAADPSTVVA-PNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKGKQGAAKFEGEHAN--YVVALEADST</Hsp_qseq>
+      <Hsp_hseq>MKLSDSTLALLKNFASINNSIFVKQGNRLRTISVAKNILAEADITEEFPRDFAIYDLNQFLNGLSL-HQDPDLDFNEESYLSIKEGKRRVKYFFADPNVIISPPDKDIQLPSSDVCFQLDNTSLEKLLKAAAVYQLPDFSAVGENGVIKLLVRDKKND---TSNEYAIVVGETDKEFTFNF--KVENIKIIPGAYDVVV---SQKLLSHFKNSKYNLCYYIALEPDST</Hsp_hseq>
+      <Hsp_midline>MKLS  T ALLKNFA+IN+ I +K G  + T +V     AEA+I++    D AIYDLN FL  LSL + D ++  +E+  + I + +  + +  ADP+ +++ P+K I  P +    ++    L++LL+ +   Q+   +   + G I +   +K  D   T  +Y++ +G+ D E TFNF   + N+K+ PG Y +++    ++  + F+    N  Y +ALE DST</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>106</Hit_num>
+  <Hit_id>gb|AXQ70558.1|</Hit_id>
+  <Hit_def>sliding clamp DNA polymerase accessory protein [Synechococcus phage S-T4]</Hit_def>
+  <Hit_accession>AXQ70558</Hit_accession>
+  <Hit_len>224</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.227</Hsp_bit-score>
+      <Hsp_score>269</Hsp_score>
+      <Hsp_evalue>4.52557e-25</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>226</Hsp_align-len>
+      <Hsp_qseq>MKLSKDTTALLKNFATINSGIMLKSGQFIMTRAVNGTTYAEANISDVIDFDVAIYDLNGFLGILSLVNDDAEISQSEDGNIKIADARSTIFWPAADPSTVVA-PNKPIPFPVASAVTEIKAEDLQQLLRVSRGLQIDTIAITVKEGKIVINGFNKVEDSALTRVKYSLTLGDYDGENTFNFIINMANMKMQPGNYKLLLWAKG-KQGAAKFEGEHANYVVALEADS</Hsp_qseq>
+      <Hsp_hseq>MKLTKQTLSILTNFSEINQSILFQKGNQLRTISVMKNILAEAEIKEEFPKDFAIYDLPQFLKVLRLYQ-DPELDFSDGNYVTIREGRNRSRYFFADPNVIVSPPEKKLTLPSEDVTFEITPGHLSQLLQAANTLDLPDLAVIGEAGVIRLSVRDKKND---TSNDHSIVVGETDKEFVFNF--KVENIKILPGNYKVSISSKCLSQFTNVLESQPLTYFIALEPDS</Hsp_hseq>
+      <Hsp_midline>MKL+K T ++L NF+ IN  I+ + G  + T +V     AEA I +    D AIYDL  FL +L L   D E+  S+   + I + R+   +  ADP+ +V+ P K +  P      EI    L QLL+ +  L +  +A+  + G I ++  +K  D   T   +S+ +G+ D E  FNF   + N+K+ PGNYK+ + +K   Q     E +   Y +ALE DS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>277884362</Statistics_db-num>
+      <Statistics_db-len>1186187390</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
