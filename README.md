@@ -14,6 +14,6 @@ To install the packages I expect to use during this workshop with mini/Anaconda:
 
 **Workshop 6:** Working with molecular dynamics trajectories using mdtraj.
 
-analyzing saturation mutagenesis data?
-
 **Bonus:** Short examples using numba, mdtraj, and Bio.SeqIO?
+
+**Bonus Colab notebooks:** Notebooks created for Google Colab, including in-notebook package installation, to demonstrate quantum chemistry with Psi4, modeling with PyRosetta, Bayesian inference with CmdStanPy, ???
